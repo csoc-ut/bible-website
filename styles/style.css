@@ -1,0 +1,59 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding-left: 40px;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+.chapter-buttons {
+    display: none;
+}
+
+.collapsible {
+    margin-top: 10px;
+}
+
+.uk-card {
+    cursor: pointer;
+}
+
+.uk-card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.desc {
+    margin: 20px;
+}
+
+.desc>p {
+    margin-bottom: 10px;
+}
+
+#top {
+    background-color: gray;
+}

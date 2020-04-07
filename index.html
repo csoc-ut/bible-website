@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+
+      <!-- UIkit & Custom CSS -->
+      <link rel="stylesheet" type="text/css" href="styles/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+
+      <!-- UIkit & Custom JS -->
+      <script type="text/javascript" src="scripts/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+
+    <title>CSOC RcV Bible</title>
+  </head>
+
+  <body>
+
+    <div class="uk-text-center" id="top" uk-grid>
+      <div class="uk-width-1-2">
+        <button type="button" name="button">Reading Plan</button>
+      </div>
+      <div class="uk-width-1-2">
+        <button type="button" name="button">Bible</button>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Genesis</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/1-genesis.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/1-genesis.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/1-genesis.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/1-genesis.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/1-genesis.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/1-genesis.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/1-genesis.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/1-genesis.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/1-genesis.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/1-genesis.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/1-genesis.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/1-genesis.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/1-genesis.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/1-genesis.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/1-genesis.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/1-genesis.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/1-genesis.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/1-genesis.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/1-genesis.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/1-genesis.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/1-genesis.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/1-genesis.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/1-genesis.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/1-genesis.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/1-genesis.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/1-genesis.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/1-genesis.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/1-genesis.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/1-genesis.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/1-genesis.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/1-genesis.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/1-genesis.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/1-genesis.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/1-genesis.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/1-genesis.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/1-genesis.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/1-genesis.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/1-genesis.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/1-genesis.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/1-genesis.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/1-genesis.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/1-genesis.html')">42</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(43, 'bible/1-genesis.html')">43</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(44, 'bible/1-genesis.html')">44</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(45, 'bible/1-genesis.html')">45</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(46, 'bible/1-genesis.html')">46</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(47, 'bible/1-genesis.html')">47</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(48, 'bible/1-genesis.html')">48</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(49, 'bible/1-genesis.html')">49</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(50, 'bible/1-genesis.html')">50</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Exodus</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/2-exodus.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/2-exodus.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/2-exodus.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/2-exodus.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/2-exodus.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/2-exodus.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/2-exodus.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/2-exodus.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/2-exodus.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/2-exodus.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/2-exodus.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/2-exodus.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/2-exodus.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/2-exodus.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/2-exodus.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/2-exodus.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/2-exodus.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/2-exodus.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/2-exodus.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/2-exodus.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/2-exodus.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/2-exodus.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/2-exodus.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/2-exodus.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/2-exodus.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/2-exodus.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/2-exodus.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/2-exodus.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/2-exodus.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/2-exodus.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/2-exodus.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/2-exodus.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/2-exodus.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/2-exodus.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/2-exodus.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/2-exodus.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/2-exodus.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/2-exodus.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/2-exodus.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/2-exodus.html')">40</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Leviticus</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/3-leviticus.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/3-leviticus.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/3-leviticus.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/3-leviticus.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/3-leviticus.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/3-leviticus.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/3-leviticus.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/3-leviticus.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/3-leviticus.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/3-leviticus.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/3-leviticus.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/3-leviticus.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/3-leviticus.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/3-leviticus.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/3-leviticus.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/3-leviticus.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/3-leviticus.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/3-leviticus.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/3-leviticus.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/3-leviticus.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/3-leviticus.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/3-leviticus.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/3-leviticus.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/3-leviticus.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/3-leviticus.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/3-leviticus.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/3-leviticus.html')">27</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Numbers</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/4-numbers.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/4-numbers.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/4-numbers.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/4-numbers.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/4-numbers.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/4-numbers.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/4-numbers.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/4-numbers.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/4-numbers.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/4-numbers.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/4-numbers.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/4-numbers.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/4-numbers.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/4-numbers.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/4-numbers.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/4-numbers.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/4-numbers.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/4-numbers.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/4-numbers.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/4-numbers.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/4-numbers.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/4-numbers.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/4-numbers.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/4-numbers.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/4-numbers.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/4-numbers.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/4-numbers.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/4-numbers.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/4-numbers.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/4-numbers.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/4-numbers.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/4-numbers.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/4-numbers.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/4-numbers.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/4-numbers.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/4-numbers.html')">36</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Deuteronomy</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/5-deuteronomy.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/5-deuteronomy.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/5-deuteronomy.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/5-deuteronomy.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/5-deuteronomy.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/5-deuteronomy.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/5-deuteronomy.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/5-deuteronomy.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/5-deuteronomy.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/5-deuteronomy.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/5-deuteronomy.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/5-deuteronomy.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/5-deuteronomy.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/5-deuteronomy.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/5-deuteronomy.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/5-deuteronomy.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/5-deuteronomy.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/5-deuteronomy.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/5-deuteronomy.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/5-deuteronomy.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/5-deuteronomy.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/5-deuteronomy.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/5-deuteronomy.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/5-deuteronomy.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/5-deuteronomy.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/5-deuteronomy.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/5-deuteronomy.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/5-deuteronomy.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/5-deuteronomy.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/5-deuteronomy.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/5-deuteronomy.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/5-deuteronomy.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/5-deuteronomy.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/5-deuteronomy.html')">34</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Joshua</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/6-joshua.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/6-joshua.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/6-joshua.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/6-joshua.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/6-joshua.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/6-joshua.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/6-joshua.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/6-joshua.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/6-joshua.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/6-joshua.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/6-joshua.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/6-joshua.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/6-joshua.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/6-joshua.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/6-joshua.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/6-joshua.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/6-joshua.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/6-joshua.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/6-joshua.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/6-joshua.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/6-joshua.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/6-joshua.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/6-joshua.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/6-joshua.html')">24</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Judges</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/7-judges.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/7-judges.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/7-judges.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/7-judges.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/7-judges.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/7-judges.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/7-judges.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/7-judges.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/7-judges.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/7-judges.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/7-judges.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/7-judges.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/7-judges.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/7-judges.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/7-judges.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/7-judges.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/7-judges.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/7-judges.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/7-judges.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/7-judges.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/7-judges.html')">21</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Ruth</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/8-ruth.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/8-ruth.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/8-ruth.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/8-ruth.html')">4</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">1 Samuel</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/9-1samuel.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/9-1samuel.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/9-1samuel.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/9-1samuel.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/9-1samuel.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/9-1samuel.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/9-1samuel.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/9-1samuel.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/9-1samuel.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/9-1samuel.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/9-1samuel.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/9-1samuel.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/9-1samuel.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/9-1samuel.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/9-1samuel.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/9-1samuel.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/9-1samuel.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/9-1samuel.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/9-1samuel.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/9-1samuel.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/9-1samuel.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/9-1samuel.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/9-1samuel.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/9-1samuel.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/9-1samuel.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/9-1samuel.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/9-1samuel.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/9-1samuel.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/9-1samuel.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/9-1samuel.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/9-1samuel.html')">31</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">2 Samuel</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/10-2samuel.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/10-2samuel.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/10-2samuel.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/10-2samuel.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/10-2samuel.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/10-2samuel.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/10-2samuel.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/10-2samuel.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/10-2samuel.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/10-2samuel.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/10-2samuel.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/10-2samuel.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/10-2samuel.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/10-2samuel.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/10-2samuel.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/10-2samuel.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/10-2samuel.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/10-2samuel.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/10-2samuel.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/10-2samuel.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/10-2samuel.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/10-2samuel.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/10-2samuel.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/10-2samuel.html')">24</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">1 Kings</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/11-1kings.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/11-1kings.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/11-1kings.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/11-1kings.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/11-1kings.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/11-1kings.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/11-1kings.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/11-1kings.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/11-1kings.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/11-1kings.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/11-1kings.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/11-1kings.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/11-1kings.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/11-1kings.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/11-1kings.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/11-1kings.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/11-1kings.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/11-1kings.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/11-1kings.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/11-1kings.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/11-1kings.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/11-1kings.html')">22</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">2 Kings</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/12-2kings.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/12-2kings.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/12-2kings.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/12-2kings.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/12-2kings.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/12-2kings.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/12-2kings.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/12-2kings.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/12-2kings.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/12-2kings.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/12-2kings.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/12-2kings.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/12-2kings.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/12-2kings.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/12-2kings.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/12-2kings.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/12-2kings.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/12-2kings.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/12-2kings.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/12-2kings.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/12-2kings.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/12-2kings.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/12-2kings.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/12-2kings.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/12-2kings.html')">25</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">1 Chronicles</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/13-1chronicles.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/13-1chronicles.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/13-1chronicles.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/13-1chronicles.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/13-1chronicles.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/13-1chronicles.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/13-1chronicles.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/13-1chronicles.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/13-1chronicles.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/13-1chronicles.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/13-1chronicles.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/13-1chronicles.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/13-1chronicles.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/13-1chronicles.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/13-1chronicles.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/13-1chronicles.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/13-1chronicles.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/13-1chronicles.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/13-1chronicles.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/13-1chronicles.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/13-1chronicles.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/13-1chronicles.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/13-1chronicles.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/13-1chronicles.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/13-1chronicles.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/13-1chronicles.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/13-1chronicles.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/13-1chronicles.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/13-1chronicles.html')">29</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">2 Chronicles</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/14-2chronicles.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/14-2chronicles.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/14-2chronicles.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/14-2chronicles.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/14-2chronicles.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/14-2chronicles.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/14-2chronicles.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/14-2chronicles.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/14-2chronicles.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/14-2chronicles.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/14-2chronicles.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/14-2chronicles.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/14-2chronicles.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/14-2chronicles.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/14-2chronicles.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/14-2chronicles.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/14-2chronicles.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/14-2chronicles.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/14-2chronicles.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/14-2chronicles.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/14-2chronicles.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/14-2chronicles.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/14-2chronicles.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/14-2chronicles.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/14-2chronicles.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/14-2chronicles.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/14-2chronicles.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/14-2chronicles.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/14-2chronicles.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/14-2chronicles.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/14-2chronicles.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/14-2chronicles.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/14-2chronicles.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/14-2chronicles.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/14-2chronicles.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/14-2chronicles.html')">36</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Ezra</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/15-ezra.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/15-ezra.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/15-ezra.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/15-ezra.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/15-ezra.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/15-ezra.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/15-ezra.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/15-ezra.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/15-ezra.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/15-ezra.html')">10</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Nehemiah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/16-nehemiah.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/16-nehemiah.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/16-nehemiah.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/16-nehemiah.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/16-nehemiah.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/16-nehemiah.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/16-nehemiah.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/16-nehemiah.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/16-nehemiah.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/16-nehemiah.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/16-nehemiah.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/16-nehemiah.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/16-nehemiah.html')">13</div> </div>
+
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Esther</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/17-esther.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/17-esther.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/17-esther.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/17-esther.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/17-esther.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/17-esther.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/17-esther.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/17-esther.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/17-esther.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/17-esther.html')">10</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Job</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/18-job.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/18-job.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/18-job.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/18-job.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/18-job.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/18-job.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/18-job.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/18-job.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/18-job.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/18-job.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/18-job.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/18-job.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/18-job.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/18-job.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/18-job.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/18-job.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/18-job.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/18-job.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/18-job.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/18-job.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/18-job.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/18-job.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/18-job.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/18-job.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/18-job.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/18-job.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/18-job.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/18-job.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/18-job.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/18-job.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/18-job.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/18-job.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/18-job.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/18-job.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/18-job.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/18-job.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/18-job.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/18-job.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/18-job.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/18-job.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/18-job.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/18-job.html')">42</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Psalms</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/19-psalms.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/19-psalms.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/19-psalms.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/19-psalms.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/19-psalms.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/19-psalms.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/19-psalms.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/19-psalms.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/19-psalms.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/19-psalms.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/19-psalms.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/19-psalms.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/19-psalms.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/19-psalms.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/19-psalms.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/19-psalms.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/19-psalms.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/19-psalms.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/19-psalms.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/19-psalms.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/19-psalms.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/19-psalms.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/19-psalms.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/19-psalms.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/19-psalms.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/19-psalms.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/19-psalms.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/19-psalms.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/19-psalms.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/19-psalms.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/19-psalms.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/19-psalms.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/19-psalms.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/19-psalms.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/19-psalms.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/19-psalms.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/19-psalms.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/19-psalms.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/19-psalms.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/19-psalms.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/19-psalms.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/19-psalms.html')">42</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(43, 'bible/19-psalms.html')">43</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(44, 'bible/19-psalms.html')">44</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(45, 'bible/19-psalms.html')">45</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(46, 'bible/19-psalms.html')">46</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(47, 'bible/19-psalms.html')">47</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(48, 'bible/19-psalms.html')">48</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(49, 'bible/19-psalms.html')">49</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(50, 'bible/19-psalms.html')">50</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(51, 'bible/19-psalms.html')">51</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(52, 'bible/19-psalms.html')">52</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(53, 'bible/19-psalms.html')">53</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(54, 'bible/19-psalms.html')">54</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(55, 'bible/19-psalms.html')">55</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(56, 'bible/19-psalms.html')">56</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(57, 'bible/19-psalms.html')">57</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(58, 'bible/19-psalms.html')">58</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(59, 'bible/19-psalms.html')">59</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(60, 'bible/19-psalms.html')">60</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(61, 'bible/19-psalms.html')">61</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(62, 'bible/19-psalms.html')">62</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(63, 'bible/19-psalms.html')">63</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(64, 'bible/19-psalms.html')">64</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(65, 'bible/19-psalms.html')">65</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(66, 'bible/19-psalms.html')">66</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(67, 'bible/19-psalms.html')">67</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(68, 'bible/19-psalms.html')">68</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(69, 'bible/19-psalms.html')">69</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(70, 'bible/19-psalms.html')">70</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(71, 'bible/19-psalms.html')">71</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(72, 'bible/19-psalms.html')">72</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(73, 'bible/19-psalms.html')">73</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(74, 'bible/19-psalms.html')">74</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(75, 'bible/19-psalms.html')">75</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(76, 'bible/19-psalms.html')">76</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(77, 'bible/19-psalms.html')">77</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(78, 'bible/19-psalms.html')">78</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(79, 'bible/19-psalms.html')">79</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(80, 'bible/19-psalms.html')">80</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(81, 'bible/19-psalms.html')">81</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(82, 'bible/19-psalms.html')">82</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(83, 'bible/19-psalms.html')">83</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(84, 'bible/19-psalms.html')">84</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(85, 'bible/19-psalms.html')">85</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(86, 'bible/19-psalms.html')">86</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(87, 'bible/19-psalms.html')">87</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(88, 'bible/19-psalms.html')">88</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(89, 'bible/19-psalms.html')">89</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(90, 'bible/19-psalms.html')">90</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(91, 'bible/19-psalms.html')">91</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(92, 'bible/19-psalms.html')">92</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(93, 'bible/19-psalms.html')">93</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(94, 'bible/19-psalms.html')">94</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(95, 'bible/19-psalms.html')">95</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(96, 'bible/19-psalms.html')">96</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(97, 'bible/19-psalms.html')">97</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(98, 'bible/19-psalms.html')">98</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(99, 'bible/19-psalms.html')">99</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(100, 'bible/19-psalms.html')">100</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(101, 'bible/19-psalms.html')">101</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(102, 'bible/19-psalms.html')">102</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(103, 'bible/19-psalms.html')">103</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(104, 'bible/19-psalms.html')">104</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(105, 'bible/19-psalms.html')">105</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(106, 'bible/19-psalms.html')">106</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(107, 'bible/19-psalms.html')">107</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(108, 'bible/19-psalms.html')">108</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(109, 'bible/19-psalms.html')">109</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(110, 'bible/19-psalms.html')">110</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(111, 'bible/19-psalms.html')">111</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(112, 'bible/19-psalms.html')">112</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(113, 'bible/19-psalms.html')">113</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(114, 'bible/19-psalms.html')">114</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(115, 'bible/19-psalms.html')">115</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(116, 'bible/19-psalms.html')">116</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(117, 'bible/19-psalms.html')">117</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(118, 'bible/19-psalms.html')">118</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(119, 'bible/19-psalms.html')">119</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(120, 'bible/19-psalms.html')">120</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(121, 'bible/19-psalms.html')">121</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(122, 'bible/19-psalms.html')">122</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(123, 'bible/19-psalms.html')">123</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(124, 'bible/19-psalms.html')">124</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(125, 'bible/19-psalms.html')">125</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(126, 'bible/19-psalms.html')">126</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(127, 'bible/19-psalms.html')">127</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(128, 'bible/19-psalms.html')">128</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(129, 'bible/19-psalms.html')">129</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(130, 'bible/19-psalms.html')">130</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(131, 'bible/19-psalms.html')">131</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(132, 'bible/19-psalms.html')">132</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(133, 'bible/19-psalms.html')">133</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(134, 'bible/19-psalms.html')">134</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(135, 'bible/19-psalms.html')">135</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(136, 'bible/19-psalms.html')">136</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(137, 'bible/19-psalms.html')">137</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(138, 'bible/19-psalms.html')">138</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(139, 'bible/19-psalms.html')">139</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(140, 'bible/19-psalms.html')">140</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(141, 'bible/19-psalms.html')">141</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(142, 'bible/19-psalms.html')">142</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(143, 'bible/19-psalms.html')">143</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(144, 'bible/19-psalms.html')">144</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(145, 'bible/19-psalms.html')">145</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(146, 'bible/19-psalms.html')">146</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(147, 'bible/19-psalms.html')">147</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(148, 'bible/19-psalms.html')">148</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(149, 'bible/19-psalms.html')">149</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(150, 'bible/19-psalms.html')">150</div> </div>
+      </div>
+
+    </div>
+
+
+    <button type="button" class="collapsible">Proverbs</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/20-proverbs.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/20-proverbs.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/20-proverbs.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/20-proverbs.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/20-proverbs.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/20-proverbs.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/20-proverbs.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/20-proverbs.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/20-proverbs.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/20-proverbs.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/20-proverbs.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/20-proverbs.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/20-proverbs.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/20-proverbs.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/20-proverbs.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/20-proverbs.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/20-proverbs.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/20-proverbs.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/20-proverbs.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/20-proverbs.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/20-proverbs.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/20-proverbs.html')">31</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Ecclesiastes</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/20-proverbs.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/20-proverbs.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/20-proverbs.html')">12</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Song of Songs</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Isaiah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/1-genesis.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/1-genesis.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/1-genesis.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/1-genesis.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/1-genesis.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/1-genesis.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/1-genesis.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/1-genesis.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/1-genesis.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/1-genesis.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/1-genesis.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/1-genesis.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/1-genesis.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/1-genesis.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/1-genesis.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/1-genesis.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/1-genesis.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/1-genesis.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/1-genesis.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/1-genesis.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/1-genesis.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/1-genesis.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/1-genesis.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/1-genesis.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/1-genesis.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/1-genesis.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/1-genesis.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/1-genesis.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/1-genesis.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/1-genesis.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/1-genesis.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/1-genesis.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/1-genesis.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/1-genesis.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/1-genesis.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/1-genesis.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/1-genesis.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/1-genesis.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/1-genesis.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/1-genesis.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/1-genesis.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/1-genesis.html')">42</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(43, 'bible/1-genesis.html')">43</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(44, 'bible/1-genesis.html')">44</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(45, 'bible/1-genesis.html')">45</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(46, 'bible/1-genesis.html')">46</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(47, 'bible/1-genesis.html')">47</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(48, 'bible/1-genesis.html')">48</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(49, 'bible/1-genesis.html')">49</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(50, 'bible/1-genesis.html')">50</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(51, 'bible/1-genesis.html')">51</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(52, 'bible/1-genesis.html')">52</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(53, 'bible/1-genesis.html')">53</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(54, 'bible/1-genesis.html')">54</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(55, 'bible/1-genesis.html')">55</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(56, 'bible/1-genesis.html')">56</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(57, 'bible/1-genesis.html')">57</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(58, 'bible/1-genesis.html')">58</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(59, 'bible/1-genesis.html')">59</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(60, 'bible/1-genesis.html')">60</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(61, 'bible/1-genesis.html')">61</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(62, 'bible/1-genesis.html')">62</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(63, 'bible/1-genesis.html')">63</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(64, 'bible/1-genesis.html')">64</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(65, 'bible/1-genesis.html')">65</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(66, 'bible/1-genesis.html')">66</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Jeremiah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/1-genesis.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/1-genesis.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/1-genesis.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/1-genesis.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/1-genesis.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/1-genesis.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/1-genesis.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/1-genesis.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/1-genesis.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/1-genesis.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/1-genesis.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/1-genesis.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/1-genesis.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/1-genesis.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/1-genesis.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/1-genesis.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/1-genesis.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/1-genesis.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/1-genesis.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/1-genesis.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/1-genesis.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/1-genesis.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/1-genesis.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/1-genesis.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/1-genesis.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/1-genesis.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/1-genesis.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/1-genesis.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/1-genesis.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/1-genesis.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/1-genesis.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/1-genesis.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/1-genesis.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/1-genesis.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/1-genesis.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/1-genesis.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/1-genesis.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/1-genesis.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/1-genesis.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/1-genesis.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/1-genesis.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/1-genesis.html')">42</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(43, 'bible/1-genesis.html')">43</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(44, 'bible/1-genesis.html')">44</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(45, 'bible/1-genesis.html')">45</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(46, 'bible/1-genesis.html')">46</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(47, 'bible/1-genesis.html')">47</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(48, 'bible/1-genesis.html')">48</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(49, 'bible/1-genesis.html')">49</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(50, 'bible/1-genesis.html')">50</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(51, 'bible/1-genesis.html')">51</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(52, 'bible/1-genesis.html')">52</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Lamentations</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Ezekiel</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/1-genesis.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/1-genesis.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/1-genesis.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/1-genesis.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/1-genesis.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/1-genesis.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/1-genesis.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/1-genesis.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/1-genesis.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/1-genesis.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/1-genesis.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/1-genesis.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/1-genesis.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/1-genesis.html')">14</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(15, 'bible/1-genesis.html')">15</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(16, 'bible/1-genesis.html')">16</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(17, 'bible/1-genesis.html')">17</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(18, 'bible/1-genesis.html')">18</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(19, 'bible/1-genesis.html')">19</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(20, 'bible/1-genesis.html')">20</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(21, 'bible/1-genesis.html')">21</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(22, 'bible/1-genesis.html')">22</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(23, 'bible/1-genesis.html')">23</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(24, 'bible/1-genesis.html')">24</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(25, 'bible/1-genesis.html')">25</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(26, 'bible/1-genesis.html')">26</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(27, 'bible/1-genesis.html')">27</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(28, 'bible/1-genesis.html')">28</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(29, 'bible/1-genesis.html')">29</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(30, 'bible/1-genesis.html')">30</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(31, 'bible/1-genesis.html')">31</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(32, 'bible/1-genesis.html')">32</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(33, 'bible/1-genesis.html')">33</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(34, 'bible/1-genesis.html')">34</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(35, 'bible/1-genesis.html')">35</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(36, 'bible/1-genesis.html')">36</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(37, 'bible/1-genesis.html')">37</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(38, 'bible/1-genesis.html')">38</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(39, 'bible/1-genesis.html')">39</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(40, 'bible/1-genesis.html')">40</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(41, 'bible/1-genesis.html')">41</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(42, 'bible/1-genesis.html')">42</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(43, 'bible/1-genesis.html')">43</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(44, 'bible/1-genesis.html')">44</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(45, 'bible/1-genesis.html')">45</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(46, 'bible/1-genesis.html')">46</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(47, 'bible/1-genesis.html')">47</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(48, 'bible/1-genesis.html')">48</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Daniel</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/20-proverbs.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/20-proverbs.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/20-proverbs.html')">12</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Hosea</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/20-proverbs.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/20-proverbs.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/20-proverbs.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/20-proverbs.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/20-proverbs.html')">14</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Joel</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Amos</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Obadiah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Jonah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Micah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Nahum</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Habakkuk</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Zephaniah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Haggai</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Zechariah</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(5, 'bible/20-proverbs.html')">5</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(6, 'bible/20-proverbs.html')">6</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(7, 'bible/20-proverbs.html')">7</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(8, 'bible/20-proverbs.html')">8</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(9, 'bible/20-proverbs.html')">9</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(10, 'bible/20-proverbs.html')">10</div> </div>
+      </div>
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(11, 'bible/20-proverbs.html')">11</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(12, 'bible/20-proverbs.html')">12</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(13, 'bible/20-proverbs.html')">13</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(14, 'bible/20-proverbs.html')">14</div> </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="collapsible">Malachi</button>
+    <div class="chapter-buttons">
+      <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(1, 'bible/20-proverbs.html')">1</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(2, 'bible/20-proverbs.html')">2</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(3, 'bible/20-proverbs.html')">3</div> </div>
+          <div> <div class="uk-card uk-card-default uk-card-body" onclick="open_chapter(4, 'bible/20-proverbs.html')">4</div> </div>
+      </div>
+    </div>
+
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+  </html>
