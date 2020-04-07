@@ -12,3 +12,8 @@ window.onload = navbar_scroll_offset;
 function go_back_page() {
   window.history.back();
 }
+
+
+document.addEventListener('swiped-left', function(e) {
+    window.history.back();
+});
