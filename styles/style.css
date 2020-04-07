@@ -7,8 +7,27 @@ h1 {
     text-align: center;
 }
 
-p {
-    /* margin: 10px; */
+/* Navbar */
+.uk-navbar-container {
+    height: 50px;
+    background-color: rgb(48, 65, 72, 1.0) !important;
+}
+
+.uk-navbar-nav>* {
+    height: 55px;
+}
+
+.uk-navbar-nav>li>a {
+    min-height: 55px !important;
+    color: white !important;
+    text-transform: none !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    font-size: 15px !important;
+}
+
+.uk-navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Buttons */
@@ -34,11 +53,10 @@ button:focus {
 }
 
 .top_button {
-    /* width: 50%; */
     text-align: center;
     font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
     height: 50px;
     padding: 0px;
     background-color: rgb(79, 91, 98, 1.0);
@@ -69,7 +87,7 @@ button:focus {
     cursor: pointer;
 }
 
-.uk-card:hover {
+.chapter-buttons .uk-card:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
@@ -78,10 +96,10 @@ button:focus {
 }
 
 /* Text Layout */
-.desc {
+.bible-text {
     margin: 20px;
 }
 
-.desc>p {
+.bible-text>p {
     margin-bottom: 10px;
 }
