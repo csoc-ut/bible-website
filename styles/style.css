@@ -82,6 +82,18 @@ button:focus {
     margin-top: 10px;
 }
 
+.collapsible>img {
+    float: right;
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    transition: .1s ease transform;
+}
+
+.collapsible.active img {
+    transform: rotate(90deg);
+}
+
 /* Grid Cards */
 .uk-card {
     cursor: pointer;
@@ -93,7 +105,7 @@ button:focus {
     margin-left: 10px;
     opacity: 0;
     padding: 10px 0 10px 0;
-    transition: .3s ease-in-out opacity, .4s ease-in-out transform;
+    transition: .3s ease-in-out opacity, .3s ease-in-out transform;
 }
 
 .chapter-buttons .uk-card:hover {
