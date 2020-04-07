@@ -30,16 +30,8 @@
 			</nav>
 		</div>
 
-    <!-- <div class="uk-text-center uk-grid-collapse" uk-grid>
-      <div class="uk-width-1-2">
-        <button type="button" class="top_button">Reading Plan</button>
-      </div>
-      <div class="uk-width-1-2">
-        <button type="button" class="top_button active">Bible</button>
-      </div>
-    </div> -->
 
-
+    <!-- Book Selection -->
     <button type="button" class="collapsible">Genesis</button>
     <div class="chapter-buttons">
       <div class="uk-child-width-1-5 uk-grid-small uk-text-center" uk-grid>
@@ -2106,19 +2098,25 @@
 
     <script>
       var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
+      for (var i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
           this.classList.toggle("active");
           var content = this.nextElementSibling;
+          // Animate from "block" -> "none" and vice versa
           if (content.style.display === "block") {
-            content.style.display = "none";
+            content.style.opacity = 0;
+            window.setTimeout(function(){
+              content.style.display = 'none';
+            },250);
           } else {
             content.style.display = "block";
+            window.setTimeout(function(){
+              content.style.opacity = 1;
+            },0);
           }
+
         });
       }
     </script>
   </body>
-  </html>
+</html>

@@ -35,7 +35,7 @@ button {
     background-color: #fff;
     color: #000;
     width: 100%;
-    height: 60px;
+    height: 70px;
     border: none;
     padding-left: 30px;
     font-size: 18px;
@@ -44,7 +44,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, button:active {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
@@ -72,26 +72,29 @@ button:focus {
 }
 
 /* Grid */
-.chapter-buttons {
-    display: none;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 .collapsible {
     margin-top: 10px;
 }
 
-/* Grid Card */
+/* Grid Cards */
 .uk-card {
     cursor: pointer;
+}
+
+.chapter-buttons {
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0;
+    padding: 10px 0 10px 0;
+    transition: .3s ease opacity, .4s ease transform;
 }
 
 .chapter-buttons .uk-card:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.uk-card-body {
+.chapter-buttons .uk-card-body {
     padding: 20px 20px !important;
 }
 
@@ -102,4 +105,44 @@ button:focus {
 
 .bible-text>p {
     margin-bottom: 10px;
+}
+
+/* Date Card */
+.todays-reading-card {
+    margin-bottom: 5px !important;
+}
+
+.date-card .uk-card {
+    height: 70px !important;
+    text-align: center !important;
+    margin-bottom: 5px !important;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.date-card .uk-card p {
+    padding: 12px 0 0 0;
+    margin: 0;
+    font-size: 9px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.date-card .uk-card h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.0 !important;
+    color: black;
+}
+
+.date-card .uk-card:hover {
+    cursor: default;
+}
+
+/* Today's Reading Button */
+.reading-cards {
+    border-bottom: 1px;
 }

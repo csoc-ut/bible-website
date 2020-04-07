@@ -7,3 +7,8 @@ function navbar_scroll_offset() {
   window.scrollBy(0, -80);
 }
 window.onload = navbar_scroll_offset;
+
+
+function go_back_page() {
+  window.history.back();
+}
