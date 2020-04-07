@@ -236,7 +236,9 @@
       const d = new Date();
       for (var i = 0; i < 15; i++) {
           /* Subtract the Days */
-          d.setDate(d.getDate() - 1);
+          if (i !== 0) {
+              d.setDate(d.getDate() - 1);
+          }
           var monthNumber = d.getMonth();
           var month = shortMonthNames[monthNumber];
           var day = d.getDate();

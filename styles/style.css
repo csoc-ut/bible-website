@@ -30,6 +30,12 @@ h1 {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
+.uk-navbar-nav>li>a>img {
+    filter: invert(100%) !important;
+    height: 15px;
+    width: 15px;
+}
+
 /* Buttons */
 button {
     background-color: #fff;
@@ -87,7 +93,7 @@ button:focus {
     margin-left: 10px;
     opacity: 0;
     padding: 10px 0 10px 0;
-    transition: .3s ease opacity, .4s ease transform;
+    transition: .3s ease-in-out opacity, .4s ease-in-out transform;
 }
 
 .chapter-buttons .uk-card:hover {
@@ -105,6 +111,10 @@ button:focus {
 
 .bible-text>p {
     margin-bottom: 10px;
+}
+
+.bible-text>h4 {
+    font-weight: bold;
 }
 
 /* Date Card */

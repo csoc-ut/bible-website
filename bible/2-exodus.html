@@ -19,8 +19,28 @@
 
 
 	<body>
+		<!-- Nav Bar -->
+		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+			<nav class="uk-navbar-container" uk-navbar>
+				<div class="uk-navbar-left" >
+						<ul class="uk-navbar-nav">
+								<li onclick="go_back_page()"><a><img src="https://img.icons8.com/android/48/000000/back.png"/></a></li>
+						</ul>
+				</div>
+
+
+				<div class="uk-navbar-center">
+						<ul class="uk-navbar-nav">
+								<li><a onclick="go_back_page()">Exodus</a></li>
+						</ul>
+				</div>
+			</nav>
+		</div>
+
+
+		<!-- Text -->
 		<div class="bible-text">
-			<h2>Exodus</h2>
+
 
 			<h4 id="exodus-1">Exodus 1</h4>
 			<p><sup><b>1</b></sup> Now these are the names of the sons of Israel who came to Egypt with Jacob; each man came with his household:<br><br>
