@@ -130,10 +130,6 @@ button:focus {
 }
 
 /* Date Card */
-.todays-reading-card {
-    margin-bottom: 5px !important;
-}
-
 .date-card .uk-card {
     height: 70px !important;
     text-align: center !important;
@@ -164,7 +160,10 @@ button:focus {
     cursor: default;
 }
 
-/* Today's Reading Button */
-.reading-cards {
-    border-bottom: 1px;
+/* Today's Reading Card */
+.todays-reading-button img {
+    float: right;
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
 }
