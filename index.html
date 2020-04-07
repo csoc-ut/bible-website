@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- UIkit & Custom CSS -->
       <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -16,13 +17,18 @@
   </head>
 
   <body>
+    <!-- <div>
+      <button type="button" class="top_button">Reading Plan</button>
+      <button type="button" class="top_button">Bible</button>
+    </div> -->
 
-    <div class="uk-text-center" id="top" uk-grid>
+
+    <div class="uk-text-center uk-grid-collapse" uk-grid>
       <div class="uk-width-1-2">
-        <button type="button" name="button">Reading Plan</button>
+        <button type="button" class="top_button">Reading Plan</button>
       </div>
       <div class="uk-width-1-2">
-        <button type="button" name="button">Bible</button>
+        <button type="button" class="top_button active">Bible</button>
       </div>
     </div>
 

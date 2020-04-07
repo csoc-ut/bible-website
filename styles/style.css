@@ -1,3 +1,4 @@
+/* Basics */
 body {
     background-color: #fff;
 }
@@ -7,17 +8,19 @@ h1 {
 }
 
 p {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
+/* Buttons */
 button {
     background-color: #fff;
     color: #000;
     width: 100%;
     height: 60px;
     border: none;
-    padding-left: 40px;
+    padding-left: 30px;
     font-size: 18px;
+    margin: 0px !important;
     text-align: left;
     cursor: pointer;
 }
@@ -30,6 +33,27 @@ button:focus {
     outline: none;
 }
 
+.top_button {
+    /* width: 50%; */
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 15px;
+    height: 50px;
+    padding: 0px;
+    background-color: rgb(79, 91, 98, 1.0);
+    color: white;
+}
+
+.top_button:hover, .top_button:focus {
+    background-color: rgb(48, 65, 72, 1.0);
+}
+
+.top_button.active {
+    background-color: rgb(48, 65, 72, 1.0);
+}
+
+/* Grid */
 .chapter-buttons {
     display: none;
     margin-right: 10px;
@@ -40,6 +64,7 @@ button:focus {
     margin-top: 10px;
 }
 
+/* Grid Card */
 .uk-card {
     cursor: pointer;
 }
@@ -48,14 +73,15 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+.uk-card-body {
+    padding: 20px 20px !important;
+}
+
+/* Text Layout */
 .desc {
     margin: 20px;
 }
 
 .desc>p {
     margin-bottom: 10px;
-}
-
-#top {
-    background-color: gray;
 }
