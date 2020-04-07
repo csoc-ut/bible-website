@@ -32,6 +32,8 @@ button:focus {
 
 .chapter-buttons {
     display: none;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .collapsible {
