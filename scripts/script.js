@@ -1,6 +1,6 @@
 function open_reading(reading) {
     sessionStorage.setItem('reading', reading.innerHTML);
-    window.location.href='../reading_plan/todays_reading.html';
+    window.location.href='reading_plan/todays_reading.html';
 }
 
 function open_chapter(n, book_name) {
