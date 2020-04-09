@@ -13,10 +13,48 @@
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
 
+      <!-- Google JQuery -->
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
       <title>Bible</title>
   </head>
 
   <body>
+    <!-- Get Reading Plan JSON -->
+    <script>
+      /* Set Reading Plan from local JSON file and current Date */
+      /* JSON: "date": "2020-08-26T05:00:00.000Z" */
+      var date = new Date();
+      $.getJSON('reading_plan/reading_plan.json', function(data) {
+          for (var i = 0; i < data.length; i++) {
+              /* Match Today's Date */
+              var reading_plan_array_split = (data[i].date).split("-");
+              var get_day = reading_plan_array_split[2].split("T");
+              reading_plan_array_split[2] = get_day[0];
+              /* Formatted: ["YEAR", "MONTH", "DAY"] */
+              var year = date.getFullYear().toString();
+              var month = date.getMonth()+1;
+              if (month < 10) { month = "0" + month; }
+              var day = date.getDate();
+              if (day < 10) { day = "0" + day; }
+
+              if (reading_plan_array_split[0] === year.toString()
+                    && reading_plan_array_split[1] === month.toString()
+                      && reading_plan_array_split[2] === day.toString())
+              {
+                  for (var j = 0; j < 15; j++) {
+                      var reading_id = "reading-" + j;
+                      document.getElementById(reading_id).innerHTML = data[i-j].reading;
+                      sessionStorage.setItem('reading', data[i-j]);
+                  }
+              }
+
+          }
+
+      });
+    </script>
+
+
 
     <!-- Nav Bar -->
 		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -42,7 +80,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-0" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -54,7 +92,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-1" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -66,7 +104,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-2" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -78,7 +116,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-3" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -90,7 +128,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-4" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -102,7 +140,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-5" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -114,7 +152,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-6" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -126,7 +164,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-7" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -138,7 +176,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-8" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -150,7 +188,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-9" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -162,7 +200,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-10" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -174,7 +212,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-11" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -186,7 +224,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-12" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -198,7 +236,7 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-13" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
@@ -210,13 +248,14 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
+            <button type="button" id="reading-14" onclick="open_reading(this);">Today's Reading<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/></button>
         </div>
     </div>
 
 
 
     <script>
+      /* Set Date for Date Cards */
       const shortMonthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
       const d = new Date();
       for (var i = 0; i < 15; i++) {
