@@ -14,7 +14,7 @@
 			<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
 
       <!-- Google JQuery -->
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+      <script type="text/javascript" src="../scripts/jquery-3.4.1.min.js"></script>
 
 		  <title>Bible</title>
 	</head>
@@ -91,11 +91,10 @@
 											nt_end_verse = data[i].pages[nt_chapter].text.length-1;
 									}
 
-									console.log(nt_book_title);
-									console.log("Chapter: " + nt_chapter);
-									console.log("start: " + nt_start_verse);
-									console.log("end: " + nt_end_verse);
-
+									// console.log(nt_book_title);
+									// console.log("Chapter: " + nt_chapter);
+									// console.log("start: " + nt_start_verse);
+									// console.log("end: " + nt_end_verse);
 									document.getElementById("nt-text").innerHTML = ""
                   for (var j = nt_start_verse; j <= nt_end_verse; j++) {
                       /* Bold & SuperScript Verse Number */
@@ -136,10 +135,10 @@
 											ot_end_verse = data[i].pages[ot_chapter].text.length-1;
 									}
 
-									console.log(ot_book_title);
-									console.log("Chapter: " + ot_chapter);
-									console.log("start: " + ot_start_verse);
-									console.log("end: " + ot_end_verse);
+									// console.log(ot_book_title);
+									// console.log("Chapter: " + ot_chapter);
+									// console.log("start: " + ot_start_verse);
+									// console.log("end: " + ot_end_verse);
 									document.getElementById("ot-text").innerHTML = ""
                   for (var j = ot_start_verse; j <= ot_end_verse; j++) {
                       /* Bold & SuperScript Verse Number */

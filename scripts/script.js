@@ -23,11 +23,12 @@ document.addEventListener('swiped-left', function(e) {
 
 
 function get_full_book_name(short_book_title) {
-    if (short_book_title === "Rom") {
+    switch (short_book_title) {
+      case "Rom":
         return "Romans";
+        break;
+
+      default:
+      return short_book_title;
     }
-    if (short_book_title === "Neh") {
-        return "Nehemiah";
-    }
-    return short_book_title;
 }
