@@ -44,8 +44,36 @@
               {
                   for (var j = 0; j < 15; j++) {
                       var reading_id = "reading-" + j;
-                      document.getElementById(reading_id).innerHTML = data[i-j].reading;
-                      sessionStorage.setItem('reading', data[i-j]);
+                      // document.getElementById(reading_id).innerHTML = data[i-j].reading;
+
+
+                      var reading_split = data[i-j].reading.split(";");
+                      // console.log(reading_split);
+                      /* NT Title */
+        							var nt_split = reading_split[0].split(" ");
+        							if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
+        									nt_split[0]+= " " + nt_split[1];
+        									nt_split[1] = nt_split[2];
+        									nt_split.splice(-1, 1)
+        							}
+        							var nt_book_title = get_full_book_name(nt_split[0]);
+        							nt_split[0] = nt_book_title;
+
+        							/* OT Title */
+        							var ot_split = reading_split[1].split(" ");
+        							ot_split.shift();
+        							if (ot_split[0] === "1" || ot_split[0] === "2") {
+        									ot_split[0]+= " " + ot_split[1];
+        									ot_split[1] = ot_split[2];
+        									ot_split.splice(-1, 1)
+        							}
+        							var ot_book_title = get_full_book_name(ot_split[0]);
+        							ot_split[0] = ot_book_title;
+
+                      /* Add to Screen and sessionStorage */
+                      var full_title = nt_split.join(" ") + "; " + ot_split.join(" ");
+                      document.getElementById(reading_id).innerHTML = full_title;
+                      sessionStorage.setItem('reading', full_title);
                   }
               }
 

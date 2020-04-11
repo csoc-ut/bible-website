@@ -56,18 +56,38 @@
 			var reading = sessionStorage.getItem('reading')
       var reading_split = reading.split(";");
 
-			/* Add NT and OT Titles */
-			document.getElementById("nt-title").innerHTML = reading_split[0];
-			document.getElementById("ot-title").innerHTML = reading_split[1];
-
 
 			/* Get NT and OT text from RcV.json locally */
       $.getJSON('../bible/RcV.json', function(data) {
           for (var i = 0; i < data.length; i++) {
+							/* NT Title */
 							var nt_split = reading_split[0].split(" ");
-							var nt_book_title = get_full_book_name(nt_split[0]);
+							if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
+									nt_split[0]+= " " + nt_split[1];
+									nt_split[1] = nt_split[2];
+									nt_split.splice(-1, 1)
+							}
+							var nt_book_title = nt_split[0];
+
+							/* OT Title */
 							var ot_split = reading_split[1].split(" ");
-							var ot_book_title = get_full_book_name(ot_split[1]);
+							ot_split.shift();
+							if (ot_split[0] === "1" || ot_split[0] === "2") {
+									ot_split[0]+= " " + ot_split[1];
+									ot_split[1] = ot_split[2];
+									ot_split.splice(-1, 1)
+							}
+							var ot_book_title = ot_split[0];
+
+							// console.log(nt_split);
+							// console.log(nt_book_title);
+							// console.log(ot_split);
+							// console.log(ot_book_title);
+
+							/* Add OT and NT Titles */
+							document.getElementById("nt-title").innerHTML = nt_split.join(" ");
+							document.getElementById("ot-title").innerHTML = ot_split.join(" ");
+
 
 							/* NT Text */
               if (data[i].title === nt_book_title) {
@@ -91,10 +111,13 @@
 											nt_end_verse = data[i].pages[nt_chapter].text.length-1;
 									}
 
+
+
 									// console.log(nt_book_title);
 									// console.log("Chapter: " + nt_chapter);
 									// console.log("start: " + nt_start_verse);
 									// console.log("end: " + nt_end_verse);
+
 									document.getElementById("nt-text").innerHTML = ""
                   for (var j = nt_start_verse; j <= nt_end_verse; j++) {
                       /* Bold & SuperScript Verse Number */
@@ -121,9 +144,9 @@
 									var ot_start_verse = 0;
 									var ot_end_verse = 0;
 
-									if (ot_split[2].includes(":")) {
+									if (ot_split[1].includes(":")) {
 											/* Get Chapter */
-											var ot_chapter_split = ot_split[2].split(":");
+											var ot_chapter_split = ot_split[1].split(":");
 											ot_chapter = ot_chapter_split[0] - 1;
 
 											/* Get Verse Start & End */
@@ -131,7 +154,7 @@
 											ot_start_verse = ot_verse_split[0] - 1;
 											ot_end_verse = ot_verse_split[1] - 1;
 									} else {
-											ot_chapter = ot_split[2] - 1;
+											ot_chapter = ot_split[1] - 1;
 											ot_end_verse = data[i].pages[ot_chapter].text.length-1;
 									}
 
@@ -139,6 +162,7 @@
 									// console.log("Chapter: " + ot_chapter);
 									// console.log("start: " + ot_start_verse);
 									// console.log("end: " + ot_end_verse);
+
 									document.getElementById("ot-text").innerHTML = ""
                   for (var j = ot_start_verse; j <= ot_end_verse; j++) {
                       /* Bold & SuperScript Verse Number */
