@@ -33,46 +33,46 @@
               reading_plan_array_split[2] = get_day[0];
               /* Formatted: ["YEAR", "MONTH", "DAY"] */
               var year = date.getFullYear().toString();
-              var month = date.getMonth()+1;
-              if (month < 10) { month = "0" + month; }
+              var month = date.getMonth() + 1;
+              if (month < 10) {
+                  month = "0" + month;
+              }
               var day = date.getDate();
-              if (day < 10) { day = "0" + day; }
+              if (day < 10) {
+                  day = "0" + day;
+              }
 
-              if (reading_plan_array_split[0] === year.toString()
-                    && reading_plan_array_split[1] === month.toString()
-                      && reading_plan_array_split[2] === day.toString())
-              {
+              if (reading_plan_array_split[0] === year.toString() &&
+                  reading_plan_array_split[1] === month.toString() &&
+                  reading_plan_array_split[2] === day.toString()) {
                   for (var j = 0; j < 15; j++) {
                       var reading_id = "reading-" + j;
-                      // document.getElementById(reading_id).innerHTML = data[i-j].reading;
+                      var reading_split = data[i - j].reading.split(";");
 
-
-                      var reading_split = data[i-j].reading.split(";");
-                      // console.log(reading_split);
                       /* NT Title */
-        							var nt_split = reading_split[0].split(" ");
-        							if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
-        									nt_split[0]+= " " + nt_split[1];
-        									nt_split[1] = nt_split[2];
-        									nt_split.splice(-1, 1)
-        							}
-        							var nt_book_title = get_full_book_name(nt_split[0]);
-        							nt_split[0] = nt_book_title;
+                      var nt_split = reading_split[0].split(" ");
+                      if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
+                          nt_split[0] += " " + nt_split[1];
+                          nt_split[1] = nt_split[2];
+                          nt_split.splice(-1, 1)
+                      }
+                      var nt_book_title = get_full_book_name(nt_split[0]);
+                      nt_split[0] = nt_book_title;
 
-        							/* OT Title */
-        							var ot_split = reading_split[1].split(" ");
-        							ot_split.shift();
-        							if (ot_split[0] === "1" || ot_split[0] === "2") {
-        									ot_split[0]+= " " + ot_split[1];
-        									ot_split[1] = ot_split[2];
-        									ot_split.splice(-1, 1)
-        							}
-        							var ot_book_title = get_full_book_name(ot_split[0]);
-        							ot_split[0] = ot_book_title;
+                      /* OT Title */
+                      var ot_split = reading_split[1].split(" ");
+                      ot_split.shift();
+                      if (ot_split[0] === "1" || ot_split[0] === "2") {
+                          ot_split[0] += " " + ot_split[1];
+                          ot_split[1] = ot_split[2];
+                          ot_split.splice(-1, 1)
+                      }
+                      var ot_book_title = get_full_book_name(ot_split[0]);
+                      ot_split[0] = ot_book_title;
 
                       /* Add to Screen and sessionStorage */
                       var full_title = nt_split.join(" ") + "; " + ot_split.join(" ");
-                      document.getElementById(reading_id).innerHTML = full_title + '<img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>';
+                      document.getElementById(reading_id).getElementsByTagName('p')[0].innerHTML = full_title;
                   }
               }
 
@@ -106,8 +106,14 @@
               <h4 id="day-0">XX</h4>
             </div>
         </div>
-        <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-0" onclick="open_reading(this);">Today's Reading</button>
+        <div class="uk-width-4-5">
+            <button type="button" class="todays-reading-button" id="reading-0" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-0">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -119,7 +125,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-1" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-1" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-1">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -131,7 +143,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-2" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-2" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-2">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -143,7 +161,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-3" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-3" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-3">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -155,7 +179,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-4" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-4" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-4">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -167,7 +197,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-5" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-5" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-5">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -179,7 +215,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-6" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-6" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-6">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -191,7 +233,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-7" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-7" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-7">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -203,7 +251,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-8" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-8" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-8">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -215,7 +269,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-9" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-9" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-9">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -227,7 +287,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-10" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-10" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-10">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -239,7 +305,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-11" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-11" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-11">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -251,7 +323,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-12" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-12" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-12">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -263,7 +341,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-13" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-13" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-13">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -275,7 +359,13 @@
             </div>
         </div>
         <div class="uk-width-4-5 todays-reading-button">
-            <button type="button" id="reading-14" onclick="open_reading(this);">Today's Reading</button>
+            <button type="button" id="reading-14" onclick="open_reading(this);">
+                <div class="todays-reading-button-titles">
+                    <h5 id="dayOfWeek-14">Day</h5>
+                    <p>Today's Reading</p>
+                </div>
+                <img src="https://img.icons8.com/ios-filled/24/000000/forward.png"/>
+            </button>
         </div>
     </div>
 
@@ -284,6 +374,7 @@
     <script>
       /* Set Date for Date Cards */
       const shortMonthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+      var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       const d = new Date();
       for (var i = 0; i < 15; i++) {
           /* Subtract the Days */
@@ -294,11 +385,14 @@
           var month = shortMonthNames[monthNumber];
           var day = d.getDate();
           if (day < 10) { day = "0" + day; }
+          var dayOfWeek = weekDays[d.getDay()];
 
           var month_id = "month-" + i;
           var day_id = "day-" + i;
+          var dayOfWeek_id = "dayOfWeek-" + i;
           document.getElementById(month_id).innerHTML = month;
           document.getElementById(day_id).innerHTML = day;
+          document.getElementById(dayOfWeek_id).innerHTML = dayOfWeek;
       }
     </script>
 

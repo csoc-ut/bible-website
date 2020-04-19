@@ -1,5 +1,6 @@
 function open_reading(reading) {
-    sessionStorage.setItem('reading', reading.textContent);
+    sessionStorage.setItem('reading', reading.getElementsByTagName('p')[0].innerHTML);
+    // console.log(reading.getElementsByTagName('p')[0].innerHTML);
     window.location.href='reading_plan/todays_reading.html';
 }
 
