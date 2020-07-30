@@ -184,3 +184,8 @@ button:focus {
     width: 15px;
     margin-top: 15px;
 }
+
+.copyright {
+    margin: 10px auto;
+    display: table;
+}
