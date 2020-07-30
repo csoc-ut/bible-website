@@ -185,7 +185,7 @@ button:focus {
     margin-top: 15px;
 }
 
-.copyright {
+#copyright {
     margin: 10px auto;
     display: table;
 }
