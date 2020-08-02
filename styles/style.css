@@ -186,6 +186,14 @@ button:focus {
 }
 
 #copyright {
+    text-align: center;
     margin: 10px auto;
     display: table;
+}
+
+@media (max-width: 768px) {
+    #copyright {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
