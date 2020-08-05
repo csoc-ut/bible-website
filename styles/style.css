@@ -189,6 +189,8 @@ button:focus {
     text-align: center;
     margin: 10px auto;
     display: table;
+    font-size: 12px;
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
