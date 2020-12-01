@@ -65,7 +65,7 @@
 							if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
 									nt_split[0]+= " " + nt_split[1];
 									nt_split[1] = nt_split[2];
-									nt_split.splice(-1, 1)
+									nt_split.splice(-1, 1);
 							}
 							var nt_book_title = nt_split[0];
 
@@ -75,9 +75,13 @@
 							if (ot_split[0] === "1" || ot_split[0] === "2") {
 									ot_split[0]+= " " + ot_split[1];
 									ot_split[1] = ot_split[2];
-									ot_split.splice(-1, 1)
+									ot_split.splice(-1, 1);
 							}
 							var ot_book_title = ot_split[0];
+							if (ot_book_title === "Song") {
+								// console.log(ot_book_title);
+								ot_book_title = "Song of Songs";
+							}
 
 							// console.log(nt_split);
 							// console.log(nt_book_title);
@@ -88,6 +92,8 @@
 							document.getElementById("nt-title").innerHTML = nt_split.join(" ");
 							document.getElementById("ot-title").innerHTML = ot_split.join(" ");
 
+							// console.log(data[i].title);
+							// console.log(ot_book_title);
 
 							/* NT Text */
               if (data[i].title === nt_book_title) {
@@ -153,6 +159,9 @@
 											var ot_verse_split = ot_chapter_split[1].split("-");
 											ot_start_verse = ot_verse_split[0] - 1;
 											ot_end_verse = ot_verse_split[1] - 1;
+									} else if (ot_book_title === "Song of Songs") {
+											ot_chapter = ot_split[3] - 1;
+											ot_end_verse = data[i].pages[ot_chapter].text.length-1;
 									} else {
 											ot_chapter = ot_split[1] - 1;
 											ot_end_verse = data[i].pages[ot_chapter].text.length-1;
