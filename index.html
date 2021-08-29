@@ -24,61 +24,51 @@
     <script>
       /* Set Reading Plan from local JSON file and current Date */
       /* JSON: "date": "2020-08-26T05:00:00.000Z" */
-      var date = new Date();
-      $.getJSON('reading_plan/reading_plan.json', function(data) {
-          for (var i = 0; i < data.length; i++) {
-              /* Match Today's Date */
-              var reading_plan_array_split = (data[i].date).split("-");
-              var get_day = reading_plan_array_split[2].split("T");
-              reading_plan_array_split[2] = get_day[0];
-              /* Formatted: ["YEAR", "MONTH", "DAY"] */
-              var year = date.getFullYear().toString();
-              var month = date.getMonth() + 1;
-              if (month < 10) {
-                  month = "0" + month;
-              }
-              var day = date.getDate();
-              if (day < 10) {
-                  day = "0" + day;
-              }
+    	var date = new Date();
+      	$.getJSON('reading_plan/reading_plan.json', function(data) {
+			for (var i = 0; i < data.length; i++) {
+				/* Match Today's Date */
+				var reading_plan_array_split = (data[i].date).split("/");
+				/* Formatted: ["MONTH", "DAY", "YEAR"] */
+				var year = date.getFullYear().toString();
+				var month = date.getMonth() + 1;
+				var day = date.getDate();
+			
+				if (reading_plan_array_split[0] === month.toString() &&
+					reading_plan_array_split[1] === day.toString() &&
+					reading_plan_array_split[2] === year.toString()) {
+					for (var j = 0; j < 15; j++) {
+						var reading_id = "reading-" + j;
+						var reading_split = data[i - j].reading.split(";");
 
-              if (reading_plan_array_split[0] === year.toString() &&
-                  reading_plan_array_split[1] === month.toString() &&
-                  reading_plan_array_split[2] === day.toString()) {
-                  for (var j = 0; j < 15; j++) {
-                      var reading_id = "reading-" + j;
-                      var reading_split = data[i - j].reading.split(";");
+						/* NT Title */
+						var nt_split = reading_split[0].split(" ");
+						if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
+							nt_split[0] += " " + nt_split[1];
+							nt_split[1] = nt_split[2];
+							nt_split.splice(-1, 1)
+						}
+						var nt_book_title = get_full_book_name(nt_split[0]);
+						nt_split[0] = nt_book_title;
 
-                      /* NT Title */
-                      var nt_split = reading_split[0].split(" ");
-                      if (nt_split[0] === "1" || nt_split[0] === "2" || nt_split[0] === "2") {
-                          nt_split[0] += " " + nt_split[1];
-                          nt_split[1] = nt_split[2];
-                          nt_split.splice(-1, 1)
-                      }
-                      var nt_book_title = get_full_book_name(nt_split[0]);
-                      nt_split[0] = nt_book_title;
+						/* OT Title */
+						var ot_split = reading_split[1].split(" ");
+						ot_split.shift();
+						if (ot_split[0] === "1" || ot_split[0] === "2") {
+							ot_split[0] += " " + ot_split[1];
+							ot_split[1] = ot_split[2];
+							ot_split.splice(-1, 1)
+						}
+						var ot_book_title = get_full_book_name(ot_split[0]);
+						ot_split[0] = ot_book_title;
 
-                      /* OT Title */
-                      var ot_split = reading_split[1].split(" ");
-                      ot_split.shift();
-                      if (ot_split[0] === "1" || ot_split[0] === "2") {
-                          ot_split[0] += " " + ot_split[1];
-                          ot_split[1] = ot_split[2];
-                          ot_split.splice(-1, 1)
-                      }
-                      var ot_book_title = get_full_book_name(ot_split[0]);
-                      ot_split[0] = ot_book_title;
-
-                      /* Add to Screen and sessionStorage */
-                      var full_title = nt_split.join(" ") + "; " + ot_split.join(" ");
-                      document.getElementById(reading_id).getElementsByTagName('p')[0].innerHTML = full_title;
-                  }
-              }
-
-          }
-
-      });
+						/* Add to Screen and sessionStorage */
+						var full_title = nt_split.join(" ") + "; " + ot_split.join(" ");
+						document.getElementById(reading_id).getElementsByTagName('p')[0].innerHTML = full_title;
+					}
+				}
+			}
+    	});
     </script>
 
 
