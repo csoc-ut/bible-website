@@ -80,7 +80,7 @@ function get_full_book_name(short_book_title) {
         return "Job";
         break;
       case "Psa":
-        return "Psalms";
+        return "Psalm";
         break;
       case "Prov":
         return "Proverbs";
