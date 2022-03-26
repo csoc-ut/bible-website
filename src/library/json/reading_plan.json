@@ -1,0 +1,4469 @@
+[
+{
+	"reading": "2 John; Hab 2",
+	"date": "8/4/2021"
+},
+{
+	"reading": "3 John; Hab 3",
+	"date": "8/5/2021"
+},
+{
+	"reading": "Jude; Zeph 1",
+	"date": "8/6/2021"
+},
+{
+	"reading": "Rev 1; Zeph 2",
+	"date": "8/7/2021"
+},
+{
+	"reading": "Rev 2; Zeph 3",
+	"date": "8/8/2021"
+},
+{
+	"reading": "Rev 3; Hag 1",
+	"date": "8/9/2021"
+},
+{
+	"reading": "Rev 4; Hag 2",
+	"date": "8/10/2021"
+},
+{
+	"reading": "Rev 5; Zech 1",
+	"date": "8/11/2021"
+},
+{
+	"reading": "Rev 6; Zech 2",
+	"date": "8/12/2021"
+},
+{
+	"reading": "Rev 7; Zech 3",
+	"date": "8/13/2021"
+},
+{
+	"reading": "Rev 8; Zech 4",
+	"date": "8/14/2021"
+},
+{
+	"reading": "Rev 9; Zech 5",
+	"date": "8/15/2021"
+},
+{
+	"reading": "Rev 10; Zech 6",
+	"date": "8/16/2021"
+},
+{
+	"reading": "Rev 11; Zech 7",
+	"date": "8/17/2021"
+},
+{
+	"reading": "Rev 12; Zech 8",
+	"date": "8/18/2021"
+},
+{
+	"reading": "Rev 13; Zech 9",
+	"date": "8/19/2021"
+},
+{
+	"reading": "Rev 14; Zech 10",
+	"date": "8/20/2021"
+},
+{
+	"reading": "Rev 15; Zech 11",
+	"date": "8/21/2021"
+},
+{
+	"reading": "Rev 16; Zech 12",
+	"date": "8/22/2021"
+},
+{
+	"reading": "Rev 17; Zech 13",
+	"date": "8/23/2021"
+},
+{
+	"reading": "Rev 18; Zech 14",
+	"date": "8/24/2021"
+},
+{
+	"reading": "Rev 19; Mal 1",
+	"date": "8/25/2021"
+},
+{
+	"reading": "Rev 20; Mal 2",
+	"date": "8/26/2021"
+},
+{
+	"reading": "Rev 21; Mal 3",
+	"date": "8/27/2021"
+},
+{
+	"reading": "Rev 22; Mal 4",
+	"date": "8/28/2021"
+},
+{
+	"reading": "Matt 1; Gen 1",
+	"date": "8/29/2021"
+},
+{
+	"reading": "Matt 2; Gen 2",
+	"date": "8/30/2021"
+},
+{
+	"reading": "Matt 3; Gen 3",
+	"date": "8/31/2021"
+},
+{
+	"reading": "Matt 4; Gen 4",
+	"date": "9/1/2021"
+},
+{
+	"reading": "Matt 5:1-16; Gen 5",
+	"date": "9/2/2021"
+},
+{
+	"reading": "Matt 5:17-48; Gen 6",
+	"date": "9/3/2021"
+},
+{
+	"reading": "Matt 6:1-18; Gen 7",
+	"date": "9/4/2021"
+},
+{
+	"reading": "Matt 6:19-34; Gen 8",
+	"date": "9/5/2021"
+},
+{
+	"reading": "Matt 7; Gen 9",
+	"date": "9/6/2021"
+},
+{
+	"reading": "Matt 8:1-17; Gen 10",
+	"date": "9/7/2021"
+},
+{
+	"reading": "Matt 8:18-34; Gen 11",
+	"date": "9/8/2021"
+},
+{
+	"reading": "Matt 9:1-17; Gen 12",
+	"date": "9/9/2021"
+},
+{
+	"reading": "Matt 9:18-38; Gen 13",
+	"date": "9/10/2021"
+},
+{
+	"reading": "Matt 10:1-15; Gen 14",
+	"date": "9/11/2021"
+},
+{
+	"reading": "Matt 10:16-42; Gen 15",
+	"date": "9/12/2021"
+},
+{
+	"reading": "Matt 11; Gen 16",
+	"date": "9/13/2021"
+},
+{
+	"reading": "Matt 12:1-21; Gen 17",
+	"date": "9/14/2021"
+},
+{
+	"reading": "Matt 12:22-50; Gen 18",
+	"date": "9/15/2021"
+},
+{
+	"reading": "Matt 13:1-23; Gen 19:1-20",
+	"date": "9/16/2021"
+},
+{
+	"reading": "Matt 13:24-35; Gen 19:21-38",
+	"date": "9/17/2021"
+},
+{
+	"reading": "Matt 13:36-58; Gen 20",
+	"date": "9/18/2021"
+},
+{
+	"reading": "Matt 14:1-21; Gen 21",
+	"date": "9/19/2021"
+},
+{
+	"reading": "Matt 14:22-36; Gen 22",
+	"date": "9/20/2021"
+},
+{
+	"reading": "Matt 15:1-20; Gen 23",
+	"date": "9/21/2021"
+},
+{
+	"reading": "Matt 15:21-39; Gen 24:1-20",
+	"date": "9/22/2021"
+},
+{
+	"reading": "Matt 16; Gen 24:21-41",
+	"date": "9/23/2021"
+},
+{
+	"reading": "Matt 17; Gen 24:42-67",
+	"date": "9/24/2021"
+},
+{
+	"reading": "Matt 18:1-20; Gen 25",
+	"date": "9/25/2021"
+},
+{
+	"reading": "Matt 18:21-35; Gen 26",
+	"date": "9/26/2021"
+},
+{
+	"reading": "Matt 19; Gen 27:1-27a",
+	"date": "9/27/2021"
+},
+{
+	"reading": "Matt 20:1-16; Gen 27:27b-46",
+	"date": "9/28/2021"
+},
+{
+	"reading": "Matt 20:17-34; Gen 28",
+	"date": "9/29/2021"
+},
+{
+	"reading": "Matt 21:1-22; Gen 29",
+	"date": "9/30/2021"
+},
+{
+	"reading": "Matt 21:23-46; Gen 30:1-24",
+	"date": "10/1/2021"
+},
+{
+	"reading": "Matt 22:1-22; Gen 30:25-43",
+	"date": "10/2/2021"
+},
+{
+	"reading": "Matt 22:23-46; Gen 31:1-28",
+	"date": "10/3/2021"
+},
+{
+	"reading": "Matt 23:1-12; Gen 31:29-55",
+	"date": "10/4/2021"
+},
+{
+	"reading": "Matt 23:13-39; Gen 32",
+	"date": "10/5/2021"
+},
+{
+	"reading": "Matt 24:1-26; Gen 33",
+	"date": "10/6/2021"
+},
+{
+	"reading": "Matt 24:27-51; Gen 34",
+	"date": "10/7/2021"
+},
+{
+	"reading": "Matt 25:1-30; Gen 35",
+	"date": "10/8/2021"
+},
+{
+	"reading": "Matt 25:31-46; Gen 36:1-22",
+	"date": "10/9/2021"
+},
+{
+	"reading": "Matt 26:1-25; Gen 36:23-43",
+	"date": "10/10/2021"
+},
+{
+	"reading": "Matt 26:26-56; Gen 37:1-17",
+	"date": "10/11/2021"
+},
+{
+	"reading": "Matt 26:57-75; Gen 37:18-36",
+	"date": "10/12/2021"
+},
+{
+	"reading": "Matt 27:1-26; Gen 38",
+	"date": "10/13/2021"
+},
+{
+	"reading": "Matt 27:27-44; Gen 39",
+	"date": "10/14/2021"
+},
+{
+	"reading": "Matt 27:45-66; Gen 40",
+	"date": "10/15/2021"
+},
+{
+	"reading": "Matt 28; Gen 41:1-13",
+	"date": "10/16/2021"
+},
+{
+	"reading": "Mark 1:1-22; Gen 41:14-39",
+	"date": "10/17/2021"
+},
+{
+	"reading": "Mark 1:23-45; Gen 41:40-57",
+	"date": "10/18/2021"
+},
+{
+	"reading": "Mark 2; Gen 42:1-17",
+	"date": "10/19/2021"
+},
+{
+	"reading": "Mark 3:1-19; Gen 42:18-38",
+	"date": "10/20/2021"
+},
+{
+	"reading": "Mark 3:20-35; Gen 43",
+	"date": "10/21/2021"
+},
+{
+	"reading": "Mark 4:1-20; Gen 44",
+	"date": "10/22/2021"
+},
+{
+	"reading": "Mark 4:21-41; Gen 45",
+	"date": "10/23/2021"
+},
+{
+	"reading": "Mark 5:1-20; Gen 46",
+	"date": "10/24/2021"
+},
+{
+	"reading": "Mark 5:21-43; Gen 47",
+	"date": "10/25/2021"
+},
+{
+	"reading": "Mark 6:1-29; Gen 48",
+	"date": "10/26/2021"
+},
+{
+	"reading": "Mark 6:30-56; Gen 49",
+	"date": "10/27/2021"
+},
+{
+	"reading": "Mark 7:1-23; Gen 50",
+	"date": "10/28/2021"
+},
+{
+	"reading": "Mark 7:24-37; Exo 1",
+	"date": "10/29/2021"
+},
+{
+	"reading": "Mark 8:1-21; Exo 2",
+	"date": "10/30/2021"
+},
+{
+	"reading": "Mark 8:22-38; Exo 3",
+	"date": "10/31/2021"
+},
+{
+	"reading": "Mark 9:1-29; Exo 4",
+	"date": "11/1/2021"
+},
+{
+	"reading": "Mark 9:30-50; Exo 5",
+	"date": "11/2/2021"
+},
+{
+	"reading": "Mark 10:1-31; Exo 6",
+	"date": "11/3/2021"
+},
+{
+	"reading": "Mark 10:32-52; Exo 7",
+	"date": "11/4/2021"
+},
+{
+	"reading": "Mark 11; Exo 8",
+	"date": "11/5/2021"
+},
+{
+	"reading": "Mark 12:1-27; Exo 9",
+	"date": "11/6/2021"
+},
+{
+	"reading": "Mark 12:28-44; Exo 10",
+	"date": "11/7/2021"
+},
+{
+	"reading": "Mark 13:1-18; Exo 11",
+	"date": "11/8/2021"
+},
+{
+	"reading": "Mark 13:19-37; Exo 12:1-24",
+	"date": "11/9/2021"
+},
+{
+	"reading": "Mark 14:1-26; Exo 12:25-51",
+	"date": "11/10/2021"
+},
+{
+	"reading": "Mark 14:27-42; Exo 13",
+	"date": "11/11/2021"
+},
+{
+	"reading": "Mark 14:43-72; Exo 14",
+	"date": "11/12/2021"
+},
+{
+	"reading": "Mark 15:1-15; Exo 15",
+	"date": "11/13/2021"
+},
+{
+	"reading": "Mark 15:16-47; Exo 16",
+	"date": "11/14/2021"
+},
+{
+	"reading": "Mark 16; Exo 17",
+	"date": "11/15/2021"
+},
+{
+	"reading": "Luke 1:1-25; Exo 18",
+	"date": "11/16/2021"
+},
+{
+	"reading": "Luke 1:26-56; Exo 19",
+	"date": "11/17/2021"
+},
+{
+	"reading": "Luke 1:57-80; Exo 20",
+	"date": "11/18/2021"
+},
+{
+	"reading": "Luke 2:1-21; Exo 21:1-17",
+	"date": "11/19/2021"
+},
+{
+	"reading": "Luke 2:22-52; Exo 21:18-36",
+	"date": "11/20/2021"
+},
+{
+	"reading": "Luke 3:1-20; Exo 22",
+	"date": "11/21/2021"
+},
+{
+	"reading": "Luke 3:21-38; Exo 23",
+	"date": "11/22/2021"
+},
+{
+	"reading": "Luke 4:1-30; Exo 24",
+	"date": "11/23/2021"
+},
+{
+	"reading": "Luke 4:31-44; Exo 25:1-22",
+	"date": "11/24/2021"
+},
+{
+	"reading": "Luke 5:1-16; Exo 25:23-40",
+	"date": "11/25/2021"
+},
+{
+	"reading": "Luke 5:17-39; Exo 26:1-14",
+	"date": "11/26/2021"
+},
+{
+	"reading": "Luke 6:1-16; Exo 26:15-37",
+	"date": "11/27/2021"
+},
+{
+	"reading": "Luke 6:17-49; Exo 27",
+	"date": "11/28/2021"
+},
+{
+	"reading": "Luke 7:1-17; Exo 28:1-21",
+	"date": "11/29/2021"
+},
+{
+	"reading": "Luke 7:18-50; Exo 28:22-43",
+	"date": "11/30/2021"
+},
+{
+	"reading": "Luke 8:1-25; Exo 29:1-23",
+	"date": "12/1/2021"
+},
+{
+	"reading": "Luke 8:26-56; Exo 29:24-46",
+	"date": "12/2/2021"
+},
+{
+	"reading": "Luke 9:1-21; Exo 30:1-16",
+	"date": "12/3/2021"
+},
+{
+	"reading": "Luke 9:22-36; Exo 30:17-38",
+	"date": "12/4/2021"
+},
+{
+	"reading": "Luke 9:37-62; Exo 31",
+	"date": "12/5/2021"
+},
+{
+	"reading": "Luke 10:1-24; Exo 32",
+	"date": "12/6/2021"
+},
+{
+	"reading": "Luke 10:25-42; Exo 33",
+	"date": "12/7/2021"
+},
+{
+	"reading": "Luke 11:1-32; Exo 34",
+	"date": "12/8/2021"
+},
+{
+	"reading": "Luke 11:33-54; Exo 35",
+	"date": "12/9/2021"
+},
+{
+	"reading": "Luke 12:1-12; Exo 36:1-19",
+	"date": "12/10/2021"
+},
+{
+	"reading": "Luke 12:13-34; Exo 36:20-38",
+	"date": "12/11/2021"
+},
+{
+	"reading": "Luke 12:35-59; Exo 37",
+	"date": "12/12/2021"
+},
+{
+	"reading": "Luke 13:1-17; Exo 38",
+	"date": "12/13/2021"
+},
+{
+	"reading": "Luke 13:18-35; Exo 39:1-21",
+	"date": "12/14/2021"
+},
+{
+	"reading": "Luke 14:1-14; Exo 39:22-43",
+	"date": "12/15/2021"
+},
+{
+	"reading": "Luke 14:15-35; Exo 40:1-16",
+	"date": "12/16/2021"
+},
+{
+	"reading": "Luke 15; Exo 40:17-38",
+	"date": "12/17/2021"
+},
+{
+	"reading": "Luke 16; Lev 1",
+	"date": "12/18/2021"
+},
+{
+	"reading": "Luke 17:1-19; Lev 2",
+	"date": "12/19/2021"
+},
+{
+	"reading": "Luke 17:20-37; Lev 3",
+	"date": "12/20/2021"
+},
+{
+	"reading": "Luke 18:1-17; Lev 4",
+	"date": "12/21/2021"
+},
+{
+	"reading": "Luke 18:18-43; Lev 5",
+	"date": "12/22/2021"
+},
+{
+	"reading": "Luke 19:1-27; Lev 6",
+	"date": "12/23/2021"
+},
+{
+	"reading": "Luke 19:28-48; Lev 7:1-21",
+	"date": "12/24/2021"
+},
+{
+	"reading": "Luke 20:1-26; Lev 7:22-38",
+	"date": "12/25/2021"
+},
+{
+	"reading": "Luke 20:27-47; Lev 8:1-17",
+	"date": "12/26/2021"
+},
+{
+	"reading": "Luke 21:1-19; Lev 8:18-36",
+	"date": "12/27/2021"
+},
+{
+	"reading": "Luke 21:20-38; Lev 9",
+	"date": "12/28/2021"
+},
+{
+	"reading": "Luke 22:1-23; Lev 10",
+	"date": "12/29/2021"
+},
+{
+	"reading": "Luke 22:24-46; Lev 11:1-25",
+	"date": "12/30/2021"
+},
+{
+	"reading": "Luke 22:47-71; Lev 11:26-47",
+	"date": "12/31/2021"
+},
+{
+	"reading": "Luke 23:1-25; Lev 12",
+	"date": "1/1/2022"
+},
+{
+	"reading": "Luke 23:26-56; Lev 13:1-21",
+	"date": "1/2/2022"
+},
+{
+	"reading": "Luke 24:1-35; Lev 13:22-39",
+	"date": "1/3/2022"
+},
+{
+	"reading": "Luke 24:36-53; Lev 13:40-59",
+	"date": "1/4/2022"
+},
+{
+	"reading": "John 1:1-28; Lev 14:1-16",
+	"date": "1/5/2022"
+},
+{
+	"reading": "John 1:29-51; Lev 14:17-32",
+	"date": "1/6/2022"
+},
+{
+	"reading": "John 2; Lev 14:33-57",
+	"date": "1/7/2022"
+},
+{
+	"reading": "John 3:1-21; Lev 15",
+	"date": "1/8/2022"
+},
+{
+	"reading": "John 3:22-36; Lev 16",
+	"date": "1/9/2022"
+},
+{
+	"reading": "John 4:1-26; Lev 17",
+	"date": "1/10/2022"
+},
+{
+	"reading": "John 4:27-54; Lev 18",
+	"date": "1/11/2022"
+},
+{
+	"reading": "John 5:1-30; Lev 19:1-18",
+	"date": "1/12/2022"
+},
+{
+	"reading": "John 5:31-47; Lev 19:19-37",
+	"date": "1/13/2022"
+},
+{
+	"reading": "John 6:1-31; Lev 20",
+	"date": "1/14/2022"
+},
+{
+	"reading": "John 6:32-51; Lev 21",
+	"date": "1/15/2022"
+},
+{
+	"reading": "John 6:52-71; Lev 22",
+	"date": "1/16/2022"
+},
+{
+	"reading": "John 7:1-24; Lev 23:1-22",
+	"date": "1/17/2022"
+},
+{
+	"reading": "John 7:25-53; Lev 23:23-44",
+	"date": "1/18/2022"
+},
+{
+	"reading": "John 8:1-20; Lev 24",
+	"date": "1/19/2022"
+},
+{
+	"reading": "John 8:21-36; Lev 25:1-17",
+	"date": "1/20/2022"
+},
+{
+	"reading": "John 8:37-59; Lev 25:18-38",
+	"date": "1/21/2022"
+},
+{
+	"reading": "John 9:1-13; Lev 25:39-55",
+	"date": "1/22/2022"
+},
+{
+	"reading": "John 9:14-41; Lev 26:1-20",
+	"date": "1/23/2022"
+},
+{
+	"reading": "John 10:1-21; Lev 26:21-46",
+	"date": "1/24/2022"
+},
+{
+	"reading": "John 10:22-42; Lev 27",
+	"date": "1/25/2022"
+},
+{
+	"reading": "John 11:1-40; Num 1:1-27",
+	"date": "1/26/2022"
+},
+{
+	"reading": "John 11:41-57; Num 1:28-54",
+	"date": "1/27/2022"
+},
+{
+	"reading": "John 12:1-11; Num 2",
+	"date": "1/28/2022"
+},
+{
+	"reading": "John 12:12-50; Num 3:1-24",
+	"date": "1/29/2022"
+},
+{
+	"reading": "John 13:1-17; Num 3:25-51",
+	"date": "1/30/2022"
+},
+{
+	"reading": "John 13:18-38; Num 4:1-20",
+	"date": "1/31/2022"
+},
+{
+	"reading": "John 14; Num 4:21-49",
+	"date": "2/1/2022"
+},
+{
+	"reading": "John 15; Num 5",
+	"date": "2/2/2022"
+},
+{
+	"reading": "John 16:1-15; Num 6",
+	"date": "2/3/2022"
+},
+{
+	"reading": "John 16:16-33; Num 7:1-22",
+	"date": "2/4/2022"
+},
+{
+	"reading": "John 17; Num 7:23-40",
+	"date": "2/5/2022"
+},
+{
+	"reading": "John 18:1-27; Num 7:41-65",
+	"date": "2/6/2022"
+},
+{
+	"reading": "John 18:28-40; Num 7:66-89",
+	"date": "2/7/2022"
+},
+{
+	"reading": "John 19:1-30; Num 8",
+	"date": "2/8/2022"
+},
+{
+	"reading": "John 19:31-42; Num 9",
+	"date": "2/9/2022"
+},
+{
+	"reading": "John 20; Num 10:1-13",
+	"date": "2/10/2022"
+},
+{
+	"reading": "John 21; Num 10:14-36",
+	"date": "2/11/2022"
+},
+{
+	"reading": "Acts 1; Num 11",
+	"date": "2/12/2022"
+},
+{
+	"reading": "Acts 2:1-21; Num 12",
+	"date": "2/13/2022"
+},
+{
+	"reading": "Acts 2:22-47; Num 13",
+	"date": "2/14/2022"
+},
+{
+	"reading": "Acts 3; Num 14:1-25",
+	"date": "2/15/2022"
+},
+{
+	"reading": "Acts 4:1-18; Num 14:26-45",
+	"date": "2/16/2022"
+},
+{
+	"reading": "Acts 4:19-37; Num 15:1-16",
+	"date": "2/17/2022"
+},
+{
+	"reading": "Acts 5:1-16; Num 15:17-41",
+	"date": "2/18/2022"
+},
+{
+	"reading": "Acts 5:17-42; Num 16:1-18",
+	"date": "2/19/2022"
+},
+{
+	"reading": "Acts 6; Num 16:19-50",
+	"date": "2/20/2022"
+},
+{
+	"reading": "Acts 7:1-16; Num 17",
+	"date": "2/21/2022"
+},
+{
+	"reading": "Acts 7:17-47; Num 18",
+	"date": "2/22/2022"
+},
+{
+	"reading": "Acts 7:48-60; Num 19",
+	"date": "2/23/2022"
+},
+{
+	"reading": "Acts 8:1-25; Num 20",
+	"date": "2/24/2022"
+},
+{
+	"reading": "Acts 8:26-40; Num 21",
+	"date": "2/25/2022"
+},
+{
+	"reading": "Acts 9:1-19; Num 22:1-19",
+	"date": "2/26/2022"
+},
+{
+	"reading": "Acts 9:20-43; Num 22:20-41",
+	"date": "2/27/2022"
+},
+{
+	"reading": "Acts 10:1-33; Num 23",
+	"date": "2/28/2022"
+},
+{
+	"reading": "Acts 10:34-48; Num 24",
+	"date": "3/1/2022"
+},
+{
+	"reading": "Acts 11; Num 25",
+	"date": "3/2/2022"
+},
+{
+	"reading": "Acts 12; Num 26:1-21",
+	"date": "3/3/2022"
+},
+{
+	"reading": "Acts 13:1-34; Num 26:22-43",
+	"date": "3/4/2022"
+},
+{
+	"reading": "Acts 13:35-52; Num 26:44-65",
+	"date": "3/5/2022"
+},
+{
+	"reading": "Acts 14; Num 27",
+	"date": "3/6/2022"
+},
+{
+	"reading": "Acts 15:1-21; Num 28",
+	"date": "3/7/2022"
+},
+{
+	"reading": "Acts 15:22-41; Num 29:1-20",
+	"date": "3/8/2022"
+},
+{
+	"reading": "Acts 16:1-18; Num 29:21-40",
+	"date": "3/9/2022"
+},
+{
+	"reading": "Acts 16:19-40; Num 30:1-16",
+	"date": "3/10/2022"
+},
+{
+	"reading": "Acts 17:1-18; Num 31:1-24",
+	"date": "3/11/2022"
+},
+{
+	"reading": "Acts 17:19-34; Num 31:25-54",
+	"date": "3/12/2022"
+},
+{
+	"reading": "Acts 18; Num 32:1-19",
+	"date": "3/13/2022"
+},
+{
+	"reading": "Acts 19:1-20; Num 32:20-42",
+	"date": "3/14/2022"
+},
+{
+	"reading": "Acts 19:21-41; Num 33:1-25",
+	"date": "3/15/2022"
+},
+{
+	"reading": "Acts 20:1-12; Num 33:26-49",
+	"date": "3/16/2022"
+},
+{
+	"reading": "Acts 20:13-38; Num 33:50-56",
+	"date": "3/17/2022"
+},
+{
+	"reading": "Acts 21:1-17; Num 34",
+	"date": "3/18/2022"
+},
+{
+	"reading": "Acts 21:18-40; Num 35",
+	"date": "3/19/2022"
+},
+{
+	"reading": "Acts 22; Num 36",
+	"date": "3/20/2022"
+},
+{
+	"reading": "Acts 23:1-15; Deut 1:1-18",
+	"date": "3/21/2022"
+},
+{
+	"reading": "Acts 23:16-35; Deut 1:19-46",
+	"date": "3/22/2022"
+},
+{
+	"reading": "Acts 24; Deut 2:1-23",
+	"date": "3/23/2022"
+},
+{
+	"reading": "Acts 25; Deut 2:24-37",
+	"date": "3/24/2022"
+},
+{
+	"reading": "Acts 26; Deut 3",
+	"date": "3/25/2022"
+},
+{
+	"reading": "Acts 27:1-26; Deut 4:1-24",
+	"date": "3/26/2022"
+},
+{
+	"reading": "Acts 27:27-44; Deut 4:25-49",
+	"date": "3/27/2022"
+},
+{
+	"reading": "Acts 28; Deut 5",
+	"date": "3/28/2022"
+},
+{
+	"reading": "Rom 1; Deut 6",
+	"date": "3/29/2022"
+},
+{
+	"reading": "Rom 2; Deut 7",
+	"date": "3/30/2022"
+},
+{
+	"reading": "Rom 3; Deut 8",
+	"date": "3/31/2022"
+},
+{
+	"reading": "Rom 4; Deut 9",
+	"date": "4/1/2022"
+},
+{
+	"reading": "Rom 5; Deut 10",
+	"date": "4/2/2022"
+},
+{
+	"reading": "Rom 6; Deut 11",
+	"date": "4/3/2022"
+},
+{
+	"reading": "Rom 7; Deut 12",
+	"date": "4/4/2022"
+},
+{
+	"reading": "Rom 8:1-13; Deut 13",
+	"date": "4/5/2022"
+},
+{
+	"reading": "Rom 8:14-39; Deut 14",
+	"date": "4/6/2022"
+},
+{
+	"reading": "Rom 9; Deut 15",
+	"date": "4/7/2022"
+},
+{
+	"reading": "Rom 10; Deut 16",
+	"date": "4/8/2022"
+},
+{
+	"reading": "Rom 11:1-22; Deut 17",
+	"date": "4/9/2022"
+},
+{
+	"reading": "Rom 11:23-36; Deut 18",
+	"date": "4/10/2022"
+},
+{
+	"reading": "Rom 12; Deut 19",
+	"date": "4/11/2022"
+},
+{
+	"reading": "Rom 13; Deut 20",
+	"date": "4/12/2022"
+},
+{
+	"reading": "Rom 14; Deut 21",
+	"date": "4/13/2022"
+},
+{
+	"reading": "Rom 15; Deut 22",
+	"date": "4/14/2022"
+},
+{
+	"reading": "Rom 16; Deut 23",
+	"date": "4/15/2022"
+},
+{
+	"reading": "1 Cor 1; Deut 24",
+	"date": "4/16/2022"
+},
+{
+	"reading": "1 Cor 2; Deut 25",
+	"date": "4/17/2022"
+},
+{
+	"reading": "1 Cor 3; Deut 26",
+	"date": "4/18/2022"
+},
+{
+	"reading": "1 Cor 4; Deut 27",
+	"date": "4/19/2022"
+},
+{
+	"reading": "1 Cor 5; Deut 28:1-14",
+	"date": "4/20/2022"
+},
+{
+	"reading": "1 Cor 6; Deut 28:15-46",
+	"date": "4/21/2022"
+},
+{
+	"reading": "1 Cor 7:1-24; Deut 28:47-68",
+	"date": "4/22/2022"
+},
+{
+	"reading": "1 Cor 7:25-40; Deut 29",
+	"date": "4/23/2022"
+},
+{
+	"reading": "1 Cor 8; Deut 30",
+	"date": "4/24/2022"
+},
+{
+	"reading": "1 Cor 9; Deut 31",
+	"date": "4/25/2022"
+},
+{
+	"reading": "1 Cor 10; Deut 32:1-29",
+	"date": "4/26/2022"
+},
+{
+	"reading": "1 Cor 11:1-16; Deut 32:30-52",
+	"date": "4/27/2022"
+},
+{
+	"reading": "1 Cor 11:17-34; Deut 33",
+	"date": "4/28/2022"
+},
+{
+	"reading": "1 Cor 12; Deut 34",
+	"date": "4/29/2022"
+},
+{
+	"reading": "1 Cor 13; Josh 1",
+	"date": "4/30/2022"
+},
+{
+	"reading": "1 Cor 14:1-19; Josh 2",
+	"date": "5/1/2022"
+},
+{
+	"reading": "1 Cor 14:20-40; Josh 3",
+	"date": "5/2/2022"
+},
+{
+	"reading": "1 Cor 15:1-19; Josh 4",
+	"date": "5/3/2022"
+},
+{
+	"reading": "1 Cor 15:20-34; Josh 5",
+	"date": "5/4/2022"
+},
+{
+	"reading": "1 Cor 15:35-58; Josh 6",
+	"date": "5/5/2022"
+},
+{
+	"reading": "1 Cor 16; Josh 7",
+	"date": "5/6/2022"
+},
+{
+	"reading": "2 Cor 1; Josh 8",
+	"date": "5/7/2022"
+},
+{
+	"reading": "2 Cor 2; Josh 9",
+	"date": "5/8/2022"
+},
+{
+	"reading": "2 Cor 3; Josh 10:1-27",
+	"date": "5/9/2022"
+},
+{
+	"reading": "2 Cor 4; Josh 10:28-43",
+	"date": "5/10/2022"
+},
+{
+	"reading": "2 Cor 5; Josh 11",
+	"date": "5/11/2022"
+},
+{
+	"reading": "2 Cor 6; Josh 12",
+	"date": "5/12/2022"
+},
+{
+	"reading": "2 Cor 7; Josh 13",
+	"date": "5/13/2022"
+},
+{
+	"reading": "2 Cor 8; Josh 14",
+	"date": "5/14/2022"
+},
+{
+	"reading": "2 Cor 9; Josh 15:1-19",
+	"date": "5/15/2022"
+},
+{
+	"reading": "2 Cor 10; Josh 15:20-41",
+	"date": "5/16/2022"
+},
+{
+	"reading": "2 Cor 11; Josh 15:42-63",
+	"date": "5/17/2022"
+},
+{
+	"reading": "2 Cor 12; Josh 16",
+	"date": "5/18/2022"
+},
+{
+	"reading": "2 Cor 13; Josh 17",
+	"date": "5/19/2022"
+},
+{
+	"reading": "Gal 1; Josh 18",
+	"date": "5/20/2022"
+},
+{
+	"reading": "Gal 2; Josh 19:1-23",
+	"date": "5/21/2022"
+},
+{
+	"reading": "Gal 3; Josh 19:24-51",
+	"date": "5/22/2022"
+},
+{
+	"reading": "Gal 4; Josh 20",
+	"date": "5/23/2022"
+},
+{
+	"reading": "Gal 5; Josh 21:1-19",
+	"date": "5/24/2022"
+},
+{
+	"reading": "Gal 6; Josh 21:20-45",
+	"date": "5/25/2022"
+},
+{
+	"reading": "Eph 1; Josh 22",
+	"date": "5/26/2022"
+},
+{
+	"reading": "Eph 2; Josh 23",
+	"date": "5/27/2022"
+},
+{
+	"reading": "Eph 3; Josh 24",
+	"date": "5/28/2022"
+},
+{
+	"reading": "Eph 4; Judg 1:1-21",
+	"date": "5/29/2022"
+},
+{
+	"reading": "Eph 5; Judg 1:22-36",
+	"date": "5/30/2022"
+},
+{
+	"reading": "Eph 6; Judg 2",
+	"date": "5/31/2022"
+},
+{
+	"reading": "Phil 1; Judg 3",
+	"date": "6/1/2022"
+},
+{
+	"reading": "Phil 2; Judg 4",
+	"date": "6/2/2022"
+},
+{
+	"reading": "Phil 3; Judge 5",
+	"date": "6/3/2022"
+},
+{
+	"reading": "Phil 4; Judg 6:1-19",
+	"date": "6/4/2022"
+},
+{
+	"reading": "Col 1; Judg 6:20-40",
+	"date": "6/5/2022"
+},
+{
+	"reading": "Col 2; Judg 7",
+	"date": "6/6/2022"
+},
+{
+	"reading": "Col 3; Judg 8",
+	"date": "6/7/2022"
+},
+{
+	"reading": "Col 4; Judg 9:1-26",
+	"date": "6/8/2022"
+},
+{
+	"reading": "1 Thes 1; Judg 9:27-57",
+	"date": "6/9/2022"
+},
+{
+	"reading": "1 Thes 2; Judg 10",
+	"date": "6/10/2022"
+},
+{
+	"reading": "1 Thes 3; Judg 11:1-18",
+	"date": "6/11/2022"
+},
+{
+	"reading": "1 Thes 4; Judg 11:19-40",
+	"date": "6/12/2022"
+},
+{
+	"reading": "1 Thes 5; Judg 12",
+	"date": "6/13/2022"
+},
+{
+	"reading": "2 Thes 1; Judg 13",
+	"date": "6/14/2022"
+},
+{
+	"reading": "2 Thes 2; Judg 14",
+	"date": "6/15/2022"
+},
+{
+	"reading": "2 Thes 3; Judg 15",
+	"date": "6/16/2022"
+},
+{
+	"reading": "1 Tim 1; Judg 16",
+	"date": "6/17/2022"
+},
+{
+	"reading": "1 Tim 2; Judg 17",
+	"date": "6/18/2022"
+},
+{
+	"reading": "1 Tim 3; Judg 18",
+	"date": "6/19/2022"
+},
+{
+	"reading": "1 Tim 4; Judg 19",
+	"date": "6/20/2022"
+},
+{
+	"reading": "1 Tim 5; Judg 20:1-23",
+	"date": "6/21/2022"
+},
+{
+	"reading": "1Tim 6; Judg 20:24-48",
+	"date": "6/22/2022"
+},
+{
+	"reading": "2 Tim 1; Judg 21",
+	"date": "6/23/2022"
+},
+{
+	"reading": "2 Tim 2; Ruth 1",
+	"date": "6/24/2022"
+},
+{
+	"reading": "2 Tim 3; Ruth 2",
+	"date": "6/25/2022"
+},
+{
+	"reading": "2 Tim 4; Ruth 3",
+	"date": "6/26/2022"
+},
+{
+	"reading": "Titus 1; Ruth 4",
+	"date": "6/27/2022"
+},
+{
+	"reading": "Titus 2; 1 Sam 1",
+	"date": "6/28/2022"
+},
+{
+	"reading": "Titus 3; 1 Sam 2:1-11",
+	"date": "6/29/2022"
+},
+{
+	"reading": "Philem 1; 1 Sam 2:12-36",
+	"date": "6/30/2022"
+},
+{
+	"reading": "Heb 1; 1 Sam 3",
+	"date": "7/1/2022"
+},
+{
+	"reading": "Heb 2; 1 Sam 4",
+	"date": "7/2/2022"
+},
+{
+	"reading": "Heb 3; 1 Sam 5",
+	"date": "7/3/2022"
+},
+{
+	"reading": "Heb 4; 1 Sam 6",
+	"date": "7/4/2022"
+},
+{
+	"reading": "Heb 5; 1 Sam 7",
+	"date": "7/5/2022"
+},
+{
+	"reading": "Heb 6; 1 Sam 8",
+	"date": "7/6/2022"
+},
+{
+	"reading": "Heb 7; 1 Sam 9",
+	"date": "7/7/2022"
+},
+{
+	"reading": "Heb 8; 1 Sam 10",
+	"date": "7/8/2022"
+},
+{
+	"reading": "Heb 9; 1 Sam 11",
+	"date": "7/9/2022"
+},
+{
+	"reading": "Heb 10:1-18; 1 Sam 12",
+	"date": "7/10/2022"
+},
+{
+	"reading": "Heb 10:19-39; 1 Sam 13",
+	"date": "7/11/2022"
+},
+{
+	"reading": "Heb 11:1-22; 1 Sam 14:1-24",
+	"date": "7/12/2022"
+},
+{
+	"reading": "Heb 11:23-40; 1 Sam 14:25-52",
+	"date": "7/13/2022"
+},
+{
+	"reading": "Heb 12; 1 Sam 15",
+	"date": "7/14/2022"
+},
+{
+	"reading": "Heb 13; 1 Sam 16",
+	"date": "7/15/2022"
+},
+{
+	"reading": "James 1; 1 Sam 17:1-18",
+	"date": "7/16/2022"
+},
+{
+	"reading": "James 2; 1 Sam 17:19-39",
+	"date": "7/17/2022"
+},
+{
+	"reading": "James 3; 1 Sam 17:40-58",
+	"date": "7/18/2022"
+},
+{
+	"reading": "James 4; 1 Sam 18",
+	"date": "7/19/2022"
+},
+{
+	"reading": "James 5; 1 Sam 19",
+	"date": "7/20/2022"
+},
+{
+	"reading": "1 Pet 1; 1 Sam 20:1-23",
+	"date": "7/21/2022"
+},
+{
+	"reading": "1 Pet 2; 1 Sam 20:24-42",
+	"date": "7/22/2022"
+},
+{
+	"reading": "1 Pet 3; 1 Sam 21",
+	"date": "7/23/2022"
+},
+{
+	"reading": "1 Pet 4; 1 Sam 22",
+	"date": "7/24/2022"
+},
+{
+	"reading": "1 Pet 5; 1 Sam 23",
+	"date": "7/25/2022"
+},
+{
+	"reading": "2 Pet 1; 1 Sam 24",
+	"date": "7/26/2022"
+},
+{
+	"reading": "2 Pet 2; 1 Sam 25:1-19",
+	"date": "7/27/2022"
+},
+{
+	"reading": "2 Pet 3; 1 Sam 25:20-44",
+	"date": "7/28/2022"
+},
+{
+	"reading": "1 John 1; 1 Sam 26",
+	"date": "7/29/2022"
+},
+{
+	"reading": "1 John 2; 1 Sam 27",
+	"date": "7/30/2022"
+},
+{
+	"reading": "1 John 3; 1 Sam 28",
+	"date": "7/31/2022"
+},
+{
+	"reading": "1 John 4; 1 Sam 29",
+	"date": "8/1/2022"
+},
+{
+	"reading": "1 John 5; 1 Sam 30",
+	"date": "8/2/2022"
+},
+{
+	"reading": "2 John 1; 1 Sam 31",
+	"date": "8/3/2022"
+},
+{
+	"reading": "3 John 1; 2 Sam 1",
+	"date": "8/4/2022"
+},
+{
+	"reading": "Jude 1; 2 Sam 2",
+	"date": "8/5/2022"
+},
+{
+	"reading": "Rev 1; 2 Sam 3:1-21",
+	"date": "8/6/2022"
+},
+{
+	"reading": "Rev 2; 2 Sam 3:22-39",
+	"date": "8/7/2022"
+},
+{
+	"reading": "Rev 3; 2 Sam 4",
+	"date": "8/8/2022"
+},
+{
+	"reading": "Rev 4; 2 Sam 5",
+	"date": "8/9/2022"
+},
+{
+	"reading": "Rev 5; 2 Sam 6",
+	"date": "8/10/2022"
+},
+{
+	"reading": "Rev 6; 2 Sam 7",
+	"date": "8/11/2022"
+},
+{
+	"reading": "Rev 7; 2 Sam 8",
+	"date": "8/12/2022"
+},
+{
+	"reading": "Rev 8; 2 Sam 9",
+	"date": "8/13/2022"
+},
+{
+	"reading": "Rev 9; 2 Sam 10",
+	"date": "8/14/2022"
+},
+{
+	"reading": "Rev 10; 2 Sam 11",
+	"date": "8/15/2022"
+},
+{
+	"reading": "Rev 11; 2 Sam 12",
+	"date": "8/16/2022"
+},
+{
+	"reading": "Rev 12; 2 Sam 13:1-22",
+	"date": "8/17/2022"
+},
+{
+	"reading": "Rev 13; 2 Sam 13:23-39",
+	"date": "8/18/2022"
+},
+{
+	"reading": "Rev 14; 2 Sam 14",
+	"date": "8/19/2022"
+},
+{
+	"reading": "Rev 15; 2 Sam 15:1-15",
+	"date": "8/20/2022"
+},
+{
+	"reading": "Rev 16; 2 Sam 15:16-37",
+	"date": "8/21/2022"
+},
+{
+	"reading": "Rev 17; 2 Sam 16",
+	"date": "8/22/2022"
+},
+{
+	"reading": "Rev 18; 2 Sam 17",
+	"date": "8/23/2022"
+},
+{
+	"reading": "Rev 19; 2 Sam 18",
+	"date": "8/24/2022"
+},
+{
+	"reading": "Rev 20; 2 Sam 19:1-14",
+	"date": "8/25/2022"
+},
+{
+	"reading": "Rev 21; 2 Sam 19:15-43",
+	"date": "8/26/2022"
+},
+{
+	"reading": "Rev 22; 2 Sam 20",
+	"date": "8/27/2022"
+},
+{
+	"reading": "Matt 1; 2 Sam 21",
+	"date": "8/28/2022"
+},
+{
+	"reading": "Matt 2; 2 Sam 22:1-30",
+	"date": "8/29/2022"
+},
+{
+	"reading": "Matt 3; 2 Sam 22:31-51",
+	"date": "8/30/2022"
+},
+{
+	"reading": "Matt 4; 2 Sam 23:1-17",
+	"date": "8/31/2022"
+},
+{
+	"reading": "Matt 5:1-16; 2 Sam 23:18-39",
+	"date": "9/1/2022"
+},
+{
+	"reading": "Matt 5:17-48; 2 Sam 24",
+	"date": "9/2/2022"
+},
+{
+	"reading": "Matt 6:1-18; 1 Kings 1:1-14",
+	"date": "9/3/2022"
+},
+{
+	"reading": "Matt 6:19-34; 1 Kings 1:15-53",
+	"date": "9/4/2022"
+},
+{
+	"reading": "Matt 7; 1 Kings 2:1-11",
+	"date": "9/5/2022"
+},
+{
+	"reading": "Matt 8:1-17; 1 Kings 2:12-46",
+	"date": "9/6/2022"
+},
+{
+	"reading": "Matt 8:18-34; 1 Kings 3",
+	"date": "9/7/2022"
+},
+{
+	"reading": "Matt 9:1-17; 1 Kings 4",
+	"date": "9/8/2022"
+},
+{
+	"reading": "Matt 9:18-38; 1 Kings 5",
+	"date": "9/9/2022"
+},
+{
+	"reading": "Matt 10:1-15; 1 Kings 6:1-13",
+	"date": "9/10/2022"
+},
+{
+	"reading": "Matt 10:16-42; 1 Kings 6:14-38",
+	"date": "9/11/2022"
+},
+{
+	"reading": "Matt 11; 1 Kings 7:1-22",
+	"date": "9/12/2022"
+},
+{
+	"reading": "Matt 12:1-21; 1 Kings 7:23-51",
+	"date": "9/13/2022"
+},
+{
+	"reading": "Matt 12:22-50; 1 Kings 8:1-21",
+	"date": "9/14/2022"
+},
+{
+	"reading": "Matt 13:1-23; 1 Kings 8:22-53",
+	"date": "9/15/2022"
+},
+{
+	"reading": "Matt 13:24-35; 1 Kings 8:54-66",
+	"date": "9/16/2022"
+},
+{
+	"reading": "Matt 13:36-58; 1 Kings 9",
+	"date": "9/17/2022"
+},
+{
+	"reading": "Matt 14:1-21; 1 Kings 10",
+	"date": "9/18/2022"
+},
+{
+	"reading": "Matt 14:22-36; 1 Kings 11:1-13",
+	"date": "9/19/2022"
+},
+{
+	"reading": "Matt 15:1-20; 1 Kings 11:14-43",
+	"date": "9/20/2022"
+},
+{
+	"reading": "Matt 15:21-39; 1 Kings 12",
+	"date": "9/21/2022"
+},
+{
+	"reading": "Matt 16; 1 Kings 13",
+	"date": "9/22/2022"
+},
+{
+	"reading": "Matt 17; 1 Kings 14",
+	"date": "9/23/2022"
+},
+{
+	"reading": "Matt 18:1-20; 1 Kings 15",
+	"date": "9/24/2022"
+},
+{
+	"reading": "Matt 18:21-35; 1 Kings 16",
+	"date": "9/25/2022"
+},
+{
+	"reading": "Matt 19; 1 Kings 17",
+	"date": "9/26/2022"
+},
+{
+	"reading": "Matt 20:1-16; 1 Kings 18:1-16",
+	"date": "9/27/2022"
+},
+{
+	"reading": "Matt 20:17-34; 1 Kings 18:17-46",
+	"date": "9/28/2022"
+},
+{
+	"reading": "Matt 21:1-22; 1 Kings 19",
+	"date": "9/29/2022"
+},
+{
+	"reading": "Matt 21:23-46; 1 Kings 20:1-25",
+	"date": "9/30/2022"
+},
+{
+	"reading": "Matt 22:1-22; 1 Kings 20:26-43",
+	"date": "10/1/2022"
+},
+{
+	"reading": "Matt 22:23-46; 1 Kings 21",
+	"date": "10/2/2022"
+},
+{
+	"reading": "Matt 23:1-12; 1 Kings 22:1-28",
+	"date": "10/3/2022"
+},
+{
+	"reading": "Matt 23:13-39; 1 Kings 22:29-53",
+	"date": "10/4/2022"
+},
+{
+	"reading": "Matt 24:1-26; 2 Kings 1",
+	"date": "10/5/2022"
+},
+{
+	"reading": "Matt 24:27-51; 2 Kings 2",
+	"date": "10/6/2022"
+},
+{
+	"reading": "Matt 25:1-30; 2 Kings 3",
+	"date": "10/7/2022"
+},
+{
+	"reading": "Matt 25:31-46; 2 Kings 4:1-17",
+	"date": "10/8/2022"
+},
+{
+	"reading": "Matt 26:1-25; 2 Kings 4:18-44",
+	"date": "10/9/2022"
+},
+{
+	"reading": "Matt 26:26-56; 2 Kings 5",
+	"date": "10/10/2022"
+},
+{
+	"reading": "Matt 26:57-75; 2 Kings 6",
+	"date": "10/11/2022"
+},
+{
+	"reading": "Matt 27:1-26; 2 Kings 7",
+	"date": "10/12/2022"
+},
+{
+	"reading": "Matt 27:27-44; 2 Kings 8",
+	"date": "10/13/2022"
+},
+{
+	"reading": "Matt 27:45-66; 2 Kings 9:1-13",
+	"date": "10/14/2022"
+},
+{
+	"reading": "Matt 28; 2 Kings 9:14-37",
+	"date": "10/15/2022"
+},
+{
+	"reading": "Mark 1:1-22; 2 Kings 10:1-14",
+	"date": "10/16/2022"
+},
+{
+	"reading": "Mark 1:23-45; 2 Kings 10:15-36",
+	"date": "10/17/2022"
+},
+{
+	"reading": "Mark 2; 2 Kings 11",
+	"date": "10/18/2022"
+},
+{
+	"reading": "Mark 3:1-19; 2 Kings 12",
+	"date": "10/19/2022"
+},
+{
+	"reading": "Mark 3:20-35; 2 Kings 13",
+	"date": "10/20/2022"
+},
+{
+	"reading": "Mark 4:1-20; 2 Kings 14",
+	"date": "10/21/2022"
+},
+{
+	"reading": "Mark 4:21-41; 2 Kings 15:1-15",
+	"date": "10/22/2022"
+},
+{
+	"reading": "Mark 5:1-20; 2 Kings 15:16-38",
+	"date": "10/23/2022"
+},
+{
+	"reading": "Mark 5:21-43; 2 Kings 16",
+	"date": "10/24/2022"
+},
+{
+	"reading": "Mark 6:1-29; 2 Kings 17:1-23",
+	"date": "10/25/2022"
+},
+{
+	"reading": "Mark 6:30-56; 2 Kings 17:24-41",
+	"date": "10/26/2022"
+},
+{
+	"reading": "Mark 7:1-23; 2 Kings 18:1-12",
+	"date": "10/27/2022"
+},
+{
+	"reading": "Mark 7:24-37; 2 Kings 18:13-37",
+	"date": "10/28/2022"
+},
+{
+	"reading": "Mark 8:1-21; 2 Kings 19:1-20",
+	"date": "10/29/2022"
+},
+{
+	"reading": "Mark 8:22-38; 2 Kings 19:21-37",
+	"date": "10/30/2022"
+},
+{
+	"reading": "Mark 9:1-29; 2 Kings 20",
+	"date": "10/31/2022"
+},
+{
+	"reading": "Mark 9:30-50; 2 Kings 21",
+	"date": "11/1/2022"
+},
+{
+	"reading": "Mark 10:1-31; 2 Kings 22",
+	"date": "11/2/2022"
+},
+{
+	"reading": "Mark 10:32-52; 2 Kings 23:1-20",
+	"date": "11/3/2022"
+},
+{
+	"reading": "Mark 11; 2 Kings 23:21-37",
+	"date": "11/4/2022"
+},
+{
+	"reading": "Mark 12:1-27; 2 Kings 24",
+	"date": "11/5/2022"
+},
+{
+	"reading": "Mark 12:28-44; 2 Kings 25",
+	"date": "11/6/2022"
+},
+{
+	"reading": "Mark 13:1-17; 1 Chr 1:1-27",
+	"date": "11/7/2022"
+},
+{
+	"reading": "Mark 13:18-37; 1 Chr 1:28-54",
+	"date": "11/8/2022"
+},
+{
+	"reading": "Mark 14:1-26; 1 Chr 2:1-19",
+	"date": "11/9/2022"
+},
+{
+	"reading": "Mark 14:27-42; 1 Chr 2:20-37",
+	"date": "11/10/2022"
+},
+{
+	"reading": "Mark 14:43-72; 1 Chr 2:38-55",
+	"date": "11/11/2022"
+},
+{
+	"reading": "Mark 15:1-15; 1 Chr 3",
+	"date": "11/12/2022"
+},
+{
+	"reading": "Mark 15:16-47; 1 Chr 4:1-23",
+	"date": "11/13/2022"
+},
+{
+	"reading": "Mark 16; 1 Chr 4:24-43",
+	"date": "11/14/2022"
+},
+{
+	"reading": "Luke 1:1-25; 1 Chr 5",
+	"date": "11/15/2022"
+},
+{
+	"reading": "Luke 1:26-56; 1 Chr 6:1-18",
+	"date": "11/16/2022"
+},
+{
+	"reading": "Luke 1:57-80; 1 Chr 6:19-49",
+	"date": "11/17/2022"
+},
+{
+	"reading": "Luke 2:1-21; 1 Chr 6:50-63",
+	"date": "11/18/2022"
+},
+{
+	"reading": "Luke 2:22-52; 1 Chr 6:64-81",
+	"date": "11/19/2022"
+},
+{
+	"reading": "Luke 3:1-20; 1 Chr 7:1-19",
+	"date": "11/20/2022"
+},
+{
+	"reading": "Luke 3:21-38; 1 Chr 7:20-40",
+	"date": "11/21/2022"
+},
+{
+	"reading": "Luke 4:1-30; 1 Chr 8:1-13",
+	"date": "11/22/2022"
+},
+{
+	"reading": "Luke 4:31-44; 1 Chr 8:14-40",
+	"date": "11/23/2022"
+},
+{
+	"reading": "Luke 5:1-16; 1 Chr 9:1-22",
+	"date": "11/24/2022"
+},
+{
+	"reading": "Luke 5:17-39; 1 Chr 9:23-44",
+	"date": "11/25/2022"
+},
+{
+	"reading": "Luke 6:1-16; 1 Chr 10",
+	"date": "11/26/2022"
+},
+{
+	"reading": "Luke 6:17-49; 1 Chr 11:1-21",
+	"date": "11/27/2022"
+},
+{
+	"reading": "Luke 7:1-17; 1 Chr 11:22-47",
+	"date": "11/28/2022"
+},
+{
+	"reading": "Luke 7:18-50; 1 Chr 12:1-18",
+	"date": "11/29/2022"
+},
+{
+	"reading": "Luke 8:1-25; 1 Chr 12:19-40",
+	"date": "11/30/2022"
+},
+{
+	"reading": "Luke 8:26-56; 1 Chr 13",
+	"date": "12/1/2022"
+},
+{
+	"reading": "Luke 9:1-21; 1 Chr 14",
+	"date": "12/2/2022"
+},
+{
+	"reading": "Luke 9:22-36; 1 Chr 15",
+	"date": "12/3/2022"
+},
+{
+	"reading": "Luke 9:37-62; 1 Chr 16:1-22",
+	"date": "12/4/2022"
+},
+{
+	"reading": "Luke 10:1-24; 1 Chr 16:23-43",
+	"date": "12/5/2022"
+},
+{
+	"reading": "Luke 10:25-42; 1 Chr 17",
+	"date": "12/6/2022"
+},
+{
+	"reading": "Luke 11:1-32; 1 Chr 18",
+	"date": "12/7/2022"
+},
+{
+	"reading": "Luke 11:33-54; 1 Chr 19",
+	"date": "12/8/2022"
+},
+{
+	"reading": "Luke 12:1-12; 1 Chr 20",
+	"date": "12/9/2022"
+},
+{
+	"reading": "Luke 12:13-34; 1 Chr 21",
+	"date": "12/10/2022"
+},
+{
+	"reading": "Luke 12:35-59; 1 Chr 22",
+	"date": "12/11/2022"
+},
+{
+	"reading": "Luke 13:1-17; 1 Chr 23",
+	"date": "12/12/2022"
+},
+{
+	"reading": "Luke 13:18-35; 1 Chr 24",
+	"date": "12/13/2022"
+},
+{
+	"reading": "Luke 14:1-14; 1 Chr 25",
+	"date": "12/14/2022"
+},
+{
+	"reading": "Luke 14:15-35; 1 Chr 26",
+	"date": "12/15/2022"
+},
+{
+	"reading": "Luke 15; 1 Chr 27",
+	"date": "12/16/2022"
+},
+{
+	"reading": "Luke 16; 1 Chr 28",
+	"date": "12/17/2022"
+},
+{
+	"reading": "Luke 17:1-19; 1 Chr 29",
+	"date": "12/18/2022"
+},
+{
+	"reading": "Luke 17:20-37; 2 Chr 1",
+	"date": "12/19/2022"
+},
+{
+	"reading": "Luke 18:1-17; 2 Chr 2",
+	"date": "12/20/2022"
+},
+{
+	"reading": "Luke 18:18-43; 2 Chr 3",
+	"date": "12/21/2022"
+},
+{
+	"reading": "Luke 19:1-27; 2 Chr 4",
+	"date": "12/22/2022"
+},
+{
+	"reading": "Luke 19:28-48; 2 Chr 5",
+	"date": "12/23/2022"
+},
+{
+	"reading": "Luke 20:1-26; 2 Chr 6:1-11",
+	"date": "12/24/2022"
+},
+{
+	"reading": "Luke 20:27-47; 2 Chr 6:12-42",
+	"date": "12/25/2022"
+},
+{
+	"reading": "Luke 21:1-19; 2 Chr 7",
+	"date": "12/26/2022"
+},
+{
+	"reading": "Luke 21:20-38; 2 Chr 8",
+	"date": "12/27/2022"
+},
+{
+	"reading": "Luke 22:1-23; 2 Chr 9",
+	"date": "12/28/2022"
+},
+{
+	"reading": "Luke 22:24-46; 2 Chr 10",
+	"date": "12/29/2022"
+},
+{
+	"reading": "Luke 22:47-71; 2 Chr 11",
+	"date": "12/30/2022"
+},
+{
+	"reading": "Luke 23:1-25; 2 Chr 12",
+	"date": "12/31/2022"
+},
+{
+	"reading": "Luke 23:26-56; 2 Chr 13",
+	"date": "1/1/2023"
+},
+{
+	"reading": "Luke 24:1-35; 2 Chr 14",
+	"date": "1/2/2023"
+},
+{
+	"reading": "Luke 24:36-53; 2 Chr 15",
+	"date": "1/3/2023"
+},
+{
+	"reading": "John 1:1-28; 2 Chr 16",
+	"date": "1/4/2023"
+},
+{
+	"reading": "John 1:29-51; 2 Chr 17",
+	"date": "1/5/2023"
+},
+{
+	"reading": "John 2; 2 Chr 18",
+	"date": "1/6/2023"
+},
+{
+	"reading": "John 3:1-21; 2 Chr 19",
+	"date": "1/7/2023"
+},
+{
+	"reading": "John 3:22-36; 2 Chr 20:1-18",
+	"date": "1/8/2023"
+},
+{
+	"reading": "John 4:1-26; 2 Chr 20:19-37",
+	"date": "1/9/2023"
+},
+{
+	"reading": "John 4:27-54; 2 Chr 21",
+	"date": "1/10/2023"
+},
+{
+	"reading": "John 5:1-30; 2 Chr 22",
+	"date": "1/11/2023"
+},
+{
+	"reading": "John 5:31-47; 2 Chr 23",
+	"date": "1/12/2023"
+},
+{
+	"reading": "John 6:1-31; 2 Chr 24",
+	"date": "1/13/2023"
+},
+{
+	"reading": "John 6:32-51; 2 Chr 25",
+	"date": "1/14/2023"
+},
+{
+	"reading": "John 6:52-71; 2 Chr 26",
+	"date": "1/15/2023"
+},
+{
+	"reading": "John 7:1-24; 2 Chr 27",
+	"date": "1/16/2023"
+},
+{
+	"reading": "John 7:25-53; 2 Chr 28",
+	"date": "1/17/2023"
+},
+{
+	"reading": "John 8:1-20; 2 Chr 29",
+	"date": "1/18/2023"
+},
+{
+	"reading": "John 8:21-36; 2 Chr 30",
+	"date": "1/19/2023"
+},
+{
+	"reading": "John 8:37-59; 2 Chr 31",
+	"date": "1/20/2023"
+},
+{
+	"reading": "John 9:1-13; 2 Chr 32",
+	"date": "1/21/2023"
+},
+{
+	"reading": "John 9:14-41; 2 Chr 33",
+	"date": "1/22/2023"
+},
+{
+	"reading": "John 10:1-21; 2 Chr 34",
+	"date": "1/23/2023"
+},
+{
+	"reading": "John 10:22-42; 2 Chr 35",
+	"date": "1/24/2023"
+},
+{
+	"reading": "John 11:1-40; 2 Chr 36",
+	"date": "1/25/2023"
+},
+{
+	"reading": "John 11:41-57; Ezra 1",
+	"date": "1/26/2023"
+},
+{
+	"reading": "John 12:1-11; Ezra 2:1-23",
+	"date": "1/27/2023"
+},
+{
+	"reading": "John 12:12-50; Ezra 2:24-42",
+	"date": "1/28/2023"
+},
+{
+	"reading": "John 13:1-17; Ezra 2:43-70",
+	"date": "1/29/2023"
+},
+{
+	"reading": "John 13:18-38; Ezra 3",
+	"date": "1/30/2023"
+},
+{
+	"reading": "John 14; Ezra 4",
+	"date": "1/31/2023"
+},
+{
+	"reading": "John 15; Ezra 5",
+	"date": "2/1/2023"
+},
+{
+	"reading": "John 16:1-15; Ezra 6",
+	"date": "2/2/2023"
+},
+{
+	"reading": "John 16:16-33; Ezra 7",
+	"date": "2/3/2023"
+},
+{
+	"reading": "John 17; Ezra 8:1-20",
+	"date": "2/4/2023"
+},
+{
+	"reading": "John 18:1-27; Ezra 8:21-36",
+	"date": "2/5/2023"
+},
+{
+	"reading": "John 18:28-40; Ezra 9",
+	"date": "2/6/2023"
+},
+{
+	"reading": "John 19:1-30; Ezra 10:1-17",
+	"date": "2/7/2023"
+},
+{
+	"reading": "John 19:31-42; Ezra 10:18-44",
+	"date": "2/8/2023"
+},
+{
+	"reading": "John 20; Neh 1",
+	"date": "2/9/2023"
+},
+{
+	"reading": "John 21; Neh 2",
+	"date": "2/10/2023"
+},
+{
+	"reading": "Acts 1; Neh 3",
+	"date": "2/11/2023"
+},
+{
+	"reading": "Acts 2:1-21; Neh 4",
+	"date": "2/12/2023"
+},
+{
+	"reading": "Acts 2:22-47; Neh 5",
+	"date": "2/13/2023"
+},
+{
+	"reading": "Acts 3; Neh 6",
+	"date": "2/14/2023"
+},
+{
+	"reading": "Acts 4:1-18; Neh 7:1-25",
+	"date": "2/15/2023"
+},
+{
+	"reading": "Acts 4:19-37; Neh 7:26-45",
+	"date": "2/16/2023"
+},
+{
+	"reading": "Acts 5:1-16; Neh 7:46-73",
+	"date": "2/17/2023"
+},
+{
+	"reading": "Acts 5:17-42; Neh 8",
+	"date": "2/18/2023"
+},
+{
+	"reading": "Acts 6; Neh 9:1-19",
+	"date": "2/19/2023"
+},
+{
+	"reading": "Acts 7:1-16; Neh 9:20-38",
+	"date": "2/20/2023"
+},
+{
+	"reading": "Acts 7:17-47; Neh 10:1-27",
+	"date": "2/21/2023"
+},
+{
+	"reading": "Acts 7:48-60; Neh 10:28-39",
+	"date": "2/22/2023"
+},
+{
+	"reading": "Acts 8:1-25; Neh 11",
+	"date": "2/23/2023"
+},
+{
+	"reading": "Acts 8:26-40; Neh 12:1-26",
+	"date": "2/24/2023"
+},
+{
+	"reading": "Acts 9:1-19; Neh 12:27-47",
+	"date": "2/25/2023"
+},
+{
+	"reading": "Acts 9:20-43; Neh 13",
+	"date": "2/26/2023"
+},
+{
+	"reading": "Acts 10:1-33; Esth 1",
+	"date": "2/27/2023"
+},
+{
+	"reading": "Acts 10:34-48; Esth 2",
+	"date": "2/28/2023"
+},
+{
+	"reading": "Acts 11; Esth 3",
+	"date": "3/1/2023"
+},
+{
+	"reading": "Acts 12; Esth 4",
+	"date": "3/2/2023"
+},
+{
+	"reading": "Acts 13:1-34; Esth 5",
+	"date": "3/3/2023"
+},
+{
+	"reading": "Acts 13:35-52; Esth 6",
+	"date": "3/4/2023"
+},
+{
+	"reading": "Acts 14; Esth 7",
+	"date": "3/5/2023"
+},
+{
+	"reading": "Acts 15:1-21; Esth 8",
+	"date": "3/6/2023"
+},
+{
+	"reading": "Acts 15:22-41; Esth 9",
+	"date": "3/7/2023"
+},
+{
+	"reading": "Acts 16:1-18; Esth 10",
+	"date": "3/8/2023"
+},
+{
+	"reading": "Acts 16:19-40; Job 1",
+	"date": "3/9/2023"
+},
+{
+	"reading": "Acts 17:1-18; Job 2",
+	"date": "3/10/2023"
+},
+{
+	"reading": "Acts 17:19-34; Job 3",
+	"date": "3/11/2023"
+},
+{
+	"reading": "Acts 18; Job 4",
+	"date": "3/12/2023"
+},
+{
+	"reading": "Acts 19:1-20; Job 5",
+	"date": "3/13/2023"
+},
+{
+	"reading": "Acts 19:21-41; Job 6",
+	"date": "3/14/2023"
+},
+{
+	"reading": "Acts 20:1-12; Job 7",
+	"date": "3/15/2023"
+},
+{
+	"reading": "Acts 20:13-38; Job 8",
+	"date": "3/16/2023"
+},
+{
+	"reading": "Acts 21:1-17; Job 9",
+	"date": "3/17/2023"
+},
+{
+	"reading": "Acts 21:18-40; Job 10",
+	"date": "3/18/2023"
+},
+{
+	"reading": "Acts 22; Job 11",
+	"date": "3/19/2023"
+},
+{
+	"reading": "Acts 23:1-15; Job 12",
+	"date": "3/20/2023"
+},
+{
+	"reading": "Acts 23:16-35; Job 13",
+	"date": "3/21/2023"
+},
+{
+	"reading": "Acts 24; Job 14",
+	"date": "3/22/2023"
+},
+{
+	"reading": "Acts 25; Job 15",
+	"date": "3/23/2023"
+},
+{
+	"reading": "Acts 26; Job 16",
+	"date": "3/24/2023"
+},
+{
+	"reading": "Acts 27:1-26; Job 17",
+	"date": "3/25/2023"
+},
+{
+	"reading": "Acts 27:27-44; Job 18",
+	"date": "3/26/2023"
+},
+{
+	"reading": "Acts 28; Job 19",
+	"date": "3/27/2023"
+},
+{
+	"reading": "Rom 1; Job 20",
+	"date": "3/28/2023"
+},
+{
+	"reading": "Rom 2; Job 21",
+	"date": "3/29/2023"
+},
+{
+	"reading": "Rom 3; Job 22",
+	"date": "3/30/2023"
+},
+{
+	"reading": "Rom 4; Job 23",
+	"date": "3/31/2023"
+},
+{
+	"reading": "Rom 5; Job 24",
+	"date": "4/1/2023"
+},
+{
+	"reading": "Rom 6; Job 25",
+	"date": "4/2/2023"
+},
+{
+	"reading": "Rom 7; Job 26",
+	"date": "4/3/2023"
+},
+{
+	"reading": "Rom 8:1-13; Job 27",
+	"date": "4/4/2023"
+},
+{
+	"reading": "Rom 8:14-39; Job 28",
+	"date": "4/5/2023"
+},
+{
+	"reading": "Rom 9; Job 29",
+	"date": "4/6/2023"
+},
+{
+	"reading": "Rom 10; Job 30",
+	"date": "4/7/2023"
+},
+{
+	"reading": "Rom 11:1-22; Job 31:1-23",
+	"date": "4/8/2023"
+},
+{
+	"reading": "Rom 11:23-36; Job 31:24-40",
+	"date": "4/9/2023"
+},
+{
+	"reading": "Rom 12; Job 32",
+	"date": "4/10/2023"
+},
+{
+	"reading": "Rom 13; Job 33",
+	"date": "4/11/2023"
+},
+{
+	"reading": "Rom 14; Job 34:1-15",
+	"date": "4/12/2023"
+},
+{
+	"reading": "Rom 15; Job 34:16-37",
+	"date": "4/13/2023"
+},
+{
+	"reading": "Rom 16; Job 35",
+	"date": "4/14/2023"
+},
+{
+	"reading": "1 Cor 1; Job 36",
+	"date": "4/15/2023"
+},
+{
+	"reading": "1 Cor 2; Job 37",
+	"date": "4/16/2023"
+},
+{
+	"reading": "1 Cor 3; Job 38:1-21",
+	"date": "4/17/2023"
+},
+{
+	"reading": "1 Cor 4; Job 38:22-41",
+	"date": "4/18/2023"
+},
+{
+	"reading": "1 Cor 5; Job 39",
+	"date": "4/19/2023"
+},
+{
+	"reading": "1 Cor 6; Job 40",
+	"date": "4/20/2023"
+},
+{
+	"reading": "1 Cor 7:1-24; Job 41",
+	"date": "4/21/2023"
+},
+{
+	"reading": "1 Cor 7:25-40; Job 42",
+	"date": "4/22/2023"
+},
+{
+	"reading": "1 Cor 8; Psa 1",
+	"date": "4/23/2023"
+},
+{
+	"reading": "1 Cor 9; Psa 2",
+	"date": "4/24/2023"
+},
+{
+	"reading": "1 Cor 10; Psa 3",
+	"date": "4/25/2023"
+},
+{
+	"reading": "1 Cor 11:1-16; Psa 4",
+	"date": "4/26/2023"
+},
+{
+	"reading": "1 Cor 11:17-34; Psa 5",
+	"date": "4/27/2023"
+},
+{
+	"reading": "1 Cor 12; Psa 6",
+	"date": "4/28/2023"
+},
+{
+	"reading": "1 Cor 13; Psa 7",
+	"date": "4/29/2023"
+},
+{
+	"reading": "1 Cor 14:1-19; Psa 8",
+	"date": "4/30/2023"
+},
+{
+	"reading": "1 Cor 14:20-40; Psa 9",
+	"date": "5/1/2023"
+},
+{
+	"reading": "1 Cor 15:1-19; Psa 10",
+	"date": "5/2/2023"
+},
+{
+	"reading": "1 Cor 15:20-34; Psa 11",
+	"date": "5/3/2023"
+},
+{
+	"reading": "1 Cor 15:35-58; Psa 12",
+	"date": "5/4/2023"
+},
+{
+	"reading": "1 Cor 16; Psa 13",
+	"date": "5/5/2023"
+},
+{
+	"reading": "2 Cor 1; Psa 14",
+	"date": "5/6/2023"
+},
+{
+	"reading": "2 Cor 2; Psa 15",
+	"date": "5/7/2023"
+},
+{
+	"reading": "2 Cor 3; Psa 16",
+	"date": "5/8/2023"
+},
+{
+	"reading": "2 Cor 4; Psa 17",
+	"date": "5/9/2023"
+},
+{
+	"reading": "2 Cor 5; Psa 18:1-24",
+	"date": "5/10/2023"
+},
+{
+	"reading": "2 Cor 6; Psa 18:25-50",
+	"date": "5/11/2023"
+},
+{
+	"reading": "2 Cor 7; Psa 19",
+	"date": "5/12/2023"
+},
+{
+	"reading": "2 Cor 8; Psa 20",
+	"date": "5/13/2023"
+},
+{
+	"reading": "2 Cor 9; Psa 21",
+	"date": "5/14/2023"
+},
+{
+	"reading": "2 Cor 10; Psa 22",
+	"date": "5/15/2023"
+},
+{
+	"reading": "2 Cor 11; Psa 23",
+	"date": "5/16/2023"
+},
+{
+	"reading": "2 Cor 12; Psa 24",
+	"date": "5/17/2023"
+},
+{
+	"reading": "2 Cor 13; Psa 25",
+	"date": "5/18/2023"
+},
+{
+	"reading": "Gal 1; Psa 26",
+	"date": "5/19/2023"
+},
+{
+	"reading": "Gal 2; Psa 27",
+	"date": "5/20/2023"
+},
+{
+	"reading": "Gal 3; Psa 28",
+	"date": "5/21/2023"
+},
+{
+	"reading": "Gal 4; Psa 29",
+	"date": "5/22/2023"
+},
+{
+	"reading": "Gal 5; Psa 30",
+	"date": "5/23/2023"
+},
+{
+	"reading": "Gal 6; Psa 31",
+	"date": "5/24/2023"
+},
+{
+	"reading": "Eph 1; Psa 32",
+	"date": "5/25/2023"
+},
+{
+	"reading": "Eph 2; Psa 33",
+	"date": "5/26/2023"
+},
+{
+	"reading": "Eph 3; Psa 34",
+	"date": "5/27/2023"
+},
+{
+	"reading": "Eph 4; Psa 35",
+	"date": "5/28/2023"
+},
+{
+	"reading": "Eph 5; Psa 36",
+	"date": "5/29/2023"
+},
+{
+	"reading": "Eph 6; Psa 37:1-20",
+	"date": "5/30/2023"
+},
+{
+	"reading": "Phil 1; Psa 37:-21-40",
+	"date": "5/31/2023"
+},
+{
+	"reading": "Phil 2; Psa 38",
+	"date": "6/1/2023"
+},
+{
+	"reading": "Phil 3; Psa 39",
+	"date": "6/2/2023"
+},
+{
+	"reading": "Phil 4; Psa 40",
+	"date": "6/3/2023"
+},
+{
+	"reading": "Col 1; Psa 41",
+	"date": "6/4/2023"
+},
+{
+	"reading": "Col 2; Psa 42",
+	"date": "6/5/2023"
+},
+{
+	"reading": "Col 3; Psa 43",
+	"date": "6/6/2023"
+},
+{
+	"reading": "Col 4; Psa 44",
+	"date": "6/7/2023"
+},
+{
+	"reading": "1 Thes 1; Psa 45",
+	"date": "6/8/2023"
+},
+{
+	"reading": "1 Thes 2; Psa 46",
+	"date": "6/9/2023"
+},
+{
+	"reading": "1 Thes 3; Psa 47",
+	"date": "6/10/2023"
+},
+{
+	"reading": "1 Thes 4; Psa 48",
+	"date": "6/11/2023"
+},
+{
+	"reading": "1 Thes 5; Psa 49",
+	"date": "6/12/2023"
+},
+{
+	"reading": "2 Thes 1; Psa 50",
+	"date": "6/13/2023"
+},
+{
+	"reading": "2 Thes 2; Psa 51",
+	"date": "6/14/2023"
+},
+{
+	"reading": "2 Thes 3; Psa 52",
+	"date": "6/15/2023"
+},
+{
+	"reading": "1 Tim 1; Psa 53",
+	"date": "6/16/2023"
+},
+{
+	"reading": "1 Tim 2; Psa 54",
+	"date": "6/17/2023"
+},
+{
+	"reading": "1 Tim 3; Psa 55",
+	"date": "6/18/2023"
+},
+{
+	"reading": "1 Tim 4; Psa 56",
+	"date": "6/19/2023"
+},
+{
+	"reading": "1 Tim 5; Psa 57",
+	"date": "6/20/2023"
+},
+{
+	"reading": "1 Tim 6; Psa 58",
+	"date": "6/21/2023"
+},
+{
+	"reading": "2 Tim 1; Psa 59",
+	"date": "6/22/2023"
+},
+{
+	"reading": "2 Tim 2; Psa 60",
+	"date": "6/23/2023"
+},
+{
+	"reading": "2 Tim 3; Psa 61",
+	"date": "6/24/2023"
+},
+{
+	"reading": "2 Tim 4; Psa 62",
+	"date": "6/25/2023"
+},
+{
+	"reading": "Titus 1; Psa 63",
+	"date": "6/26/2023"
+},
+{
+	"reading": "Titus 2; Psa 64",
+	"date": "6/27/2023"
+},
+{
+	"reading": "Titus 3; Psa 65",
+	"date": "6/28/2023"
+},
+{
+	"reading": "Philem 1; Psa 66",
+	"date": "6/29/2023"
+},
+{
+	"reading": "Heb 1; Psa 67",
+	"date": "6/30/2023"
+},
+{
+	"reading": "Heb 2; Psa 68",
+	"date": "7/1/2023"
+},
+{
+	"reading": "Heb 3; Psa 69",
+	"date": "7/2/2023"
+},
+{
+	"reading": "Heb 4; Psa 70",
+	"date": "7/3/2023"
+},
+{
+	"reading": "Heb 5; Psa 71",
+	"date": "7/4/2023"
+},
+{
+	"reading": "Heb 6; Psa 72",
+	"date": "7/5/2023"
+},
+{
+	"reading": "Heb 7; Psa 73",
+	"date": "7/6/2023"
+},
+{
+	"reading": "Heb 8; Psa 74",
+	"date": "7/7/2023"
+},
+{
+	"reading": "Heb 9; Psa 75",
+	"date": "7/8/2023"
+},
+{
+	"reading": "Heb 10:1-18; Psa 76",
+	"date": "7/9/2023"
+},
+{
+	"reading": "Heb 10:19-39; Psa 77",
+	"date": "7/10/2023"
+},
+{
+	"reading": "Heb 11:1-22; Psa 78:1-24",
+	"date": "7/11/2023"
+},
+{
+	"reading": "Heb 11:23-40; Psa 78:25-53",
+	"date": "7/12/2023"
+},
+{
+	"reading": "Heb 12; Psa 78:54-72",
+	"date": "7/13/2023"
+},
+{
+	"reading": "Heb 13; Psa 79",
+	"date": "7/14/2023"
+},
+{
+	"reading": "James 1; Psa 80",
+	"date": "7/15/2023"
+},
+{
+	"reading": "James 2; Psa 81",
+	"date": "7/16/2023"
+},
+{
+	"reading": "James 3; Psa 82",
+	"date": "7/17/2023"
+},
+{
+	"reading": "James 4; Psa 83",
+	"date": "7/18/2023"
+},
+{
+	"reading": "James 5; Psa 84",
+	"date": "7/19/2023"
+},
+{
+	"reading": "1 Pet 1; Psa 85",
+	"date": "7/20/2023"
+},
+{
+	"reading": "1 Pet 2; Psa 86",
+	"date": "7/21/2023"
+},
+{
+	"reading": "1 Pet 3; Psa 87",
+	"date": "7/22/2023"
+},
+{
+	"reading": "1 Pet 4; Psa 88",
+	"date": "7/23/2023"
+},
+{
+	"reading": "1 Pet 5; Psa 89:1-26",
+	"date": "7/24/2023"
+},
+{
+	"reading": "2 Pet 1; Psa 89:27-52",
+	"date": "7/25/2023"
+},
+{
+	"reading": "2 Pet 2; Psa 90",
+	"date": "7/26/2023"
+},
+{
+	"reading": "2 Pet 3; Psa 91",
+	"date": "7/27/2023"
+},
+{
+	"reading": "1 John 1; Psa 92",
+	"date": "7/28/2023"
+},
+{
+	"reading": "1 John 2; Psa 93",
+	"date": "7/29/2023"
+},
+{
+	"reading": "1 John 3; Psa 94",
+	"date": "7/30/2023"
+},
+{
+	"reading": "1 John 4; Psa 95",
+	"date": "7/31/2023"
+},
+{
+	"reading": "1 John 5; Psa 96",
+	"date": "8/1/2023"
+},
+{
+	"reading": "2 John; Psa 97",
+	"date": "8/2/2023"
+},
+{
+	"reading": "3 John; Psa 98",
+	"date": "8/3/2023"
+},
+{
+	"reading": "Jude ; Psa 99",
+	"date": "8/4/2023"
+},
+{
+	"reading": "Rev 1; Psa 100",
+	"date": "8/5/2023"
+},
+{
+	"reading": "Rev 2; Psa 101",
+	"date": "8/6/2023"
+},
+{
+	"reading": "Rev 3; Psa 102",
+	"date": "8/7/2023"
+},
+{
+	"reading": "Rev 4; Psa 103",
+	"date": "8/8/2023"
+},
+{
+	"reading": "Rev 5; Psa 104",
+	"date": "8/9/2023"
+},
+{
+	"reading": "Rev 6; Psa 105:1-22",
+	"date": "8/10/2023"
+},
+{
+	"reading": "Rev 7; Psa 105:23-45",
+	"date": "8/11/2023"
+},
+{
+	"reading": "Rev 8; Psa 106:1-23",
+	"date": "8/12/2023"
+},
+{
+	"reading": "Rev 9; Psa 106:24-48",
+	"date": "8/13/2023"
+},
+{
+	"reading": "Rev 10; Psa 107:1-22",
+	"date": "8/14/2023"
+},
+{
+	"reading": "Rev 11; Psa 107:23-43",
+	"date": "8/15/2023"
+},
+{
+	"reading": "Rev 12; Psa108",
+	"date": "8/16/2023"
+},
+{
+	"reading": "Rev 13; Psa 109",
+	"date": "8/17/2023"
+},
+{
+	"reading": "Rev 14; Psa 110",
+	"date": "8/18/2023"
+},
+{
+	"reading": "Rev 15; Psa 111",
+	"date": "8/19/2023"
+},
+{
+	"reading": "Rev 16; Psa 112",
+	"date": "8/20/2023"
+},
+{
+	"reading": "Rev 17; Psa 113",
+	"date": "8/21/2023"
+},
+{
+	"reading": "Rev 18; Psa 114",
+	"date": "8/22/2023"
+},
+{
+	"reading": "Rev 19; Psa 115",
+	"date": "8/23/2023"
+},
+{
+	"reading": "Rev 20; Psa 116",
+	"date": "8/24/2023"
+},
+{
+	"reading": "Rev 21; Psa 117",
+	"date": "8/25/2023"
+},
+{
+	"reading": "Rev 22; Psa 118",
+	"date": "8/26/2023"
+},
+{
+	"reading": "Matt 1; Psa 119:1-24",
+	"date": "8/27/2023"
+},
+{
+	"reading": "Matt 2; Psa 119:25-48",
+	"date": "8/28/2023"
+},
+{
+	"reading": "Matt 3; Psa 119:49-64",
+	"date": "8/29/2023"
+},
+{
+	"reading": "Matt 4; Psa 119:65-88",
+	"date": "8/30/2023"
+},
+{
+	"reading": "Matt 5:1-16; Psa 119:89-112",
+	"date": "8/31/2023"
+},
+{
+	"reading": "Matt 5:17-48; Psa 119:113-136",
+	"date": "9/1/2023"
+},
+{
+	"reading": "Matt 6:1-18; Psa 119:137-160",
+	"date": "9/2/2023"
+},
+{
+	"reading": "Matt 6:19-34; Psa 119:161-176",
+	"date": "9/3/2023"
+},
+{
+	"reading": "Matt 7; Psa 120",
+	"date": "9/4/2023"
+},
+{
+	"reading": "Matt 8:1-17; Psa 121",
+	"date": "9/5/2023"
+},
+{
+	"reading": "Matt 8:18-34; Psa 122",
+	"date": "9/6/2023"
+},
+{
+	"reading": "Matt 9:1-17; Psa 123",
+	"date": "9/7/2023"
+},
+{
+	"reading": "Matt 9:18-38; Psa 124",
+	"date": "9/8/2023"
+},
+{
+	"reading": "Matt 10:1-15; Psa 125",
+	"date": "9/9/2023"
+},
+{
+	"reading": "Matt 10:16-42; Psa 126",
+	"date": "9/10/2023"
+},
+{
+	"reading": "Matt 11; Psa 127",
+	"date": "9/11/2023"
+},
+{
+	"reading": "Matt 12:1-21; Psa 128",
+	"date": "9/12/2023"
+},
+{
+	"reading": "Matt 12:22-50; Psa 129",
+	"date": "9/13/2023"
+},
+{
+	"reading": "Matt 13:1-23; Psa 130",
+	"date": "9/14/2023"
+},
+{
+	"reading": "Matt 13:24-35; Psa 131",
+	"date": "9/15/2023"
+},
+{
+	"reading": "Matt 13:36-58; Psa 132",
+	"date": "9/16/2023"
+},
+{
+	"reading": "Matt 14:1-21; Psa 133",
+	"date": "9/17/2023"
+},
+{
+	"reading": "Matt 14:22-36; Psa 134",
+	"date": "9/18/2023"
+},
+{
+	"reading": "Matt 15:1-20; Psa 135",
+	"date": "9/19/2023"
+},
+{
+	"reading": "Matt 15:21-39; Psa 136",
+	"date": "9/20/2023"
+},
+{
+	"reading": "Matt 16; Psa 137",
+	"date": "9/21/2023"
+},
+{
+	"reading": "Matt 17; Psa 138",
+	"date": "9/22/2023"
+},
+{
+	"reading": "Matt 18:1-20; Psa 139",
+	"date": "9/23/2023"
+},
+{
+	"reading": "Matt 18:21-35; Psa 140",
+	"date": "9/24/2023"
+},
+{
+	"reading": "Matt 19; Psa 141",
+	"date": "9/25/2023"
+},
+{
+	"reading": "Matt 20:1-16; Psa 142",
+	"date": "9/26/2023"
+},
+{
+	"reading": "Matt 20:17-34; Psa 143",
+	"date": "9/27/2023"
+},
+{
+	"reading": "Matt 21:1-22; Psa 144",
+	"date": "9/28/2023"
+},
+{
+	"reading": "Matt 21:23-46; Psa 145",
+	"date": "9/29/2023"
+},
+{
+	"reading": "Matt 22:1-22; Psa 146",
+	"date": "9/30/2023"
+},
+{
+	"reading": "Matt 22:23-46; Psa 147",
+	"date": "10/1/2023"
+},
+{
+	"reading": "Matt 23:1-12; Psa 148",
+	"date": "10/2/2023"
+},
+{
+	"reading": "Matt 23:13-39; Psa 149",
+	"date": "10/3/2023"
+},
+{
+	"reading": "Matt 24:1-26; Psa 150",
+	"date": "10/4/2023"
+},
+{
+	"reading": "Matt 24:27-51; Prov 1",
+	"date": "10/5/2023"
+},
+{
+	"reading": "Matt 25:1-30; Prov 2",
+	"date": "10/6/2023"
+},
+{
+	"reading": "Matt 25:31-46; Prov 3",
+	"date": "10/7/2023"
+},
+{
+	"reading": "Matt 26:1-25; Prov 4",
+	"date": "10/8/2023"
+},
+{
+	"reading": "Matt 26:26-56; Prov 5",
+	"date": "10/9/2023"
+},
+{
+	"reading": "Matt 26:57-75; Prov 6",
+	"date": "10/10/2023"
+},
+{
+	"reading": "Matt 27:1-26; Prov 7",
+	"date": "10/11/2023"
+},
+{
+	"reading": "Matt 27:27-44; Prov 8:1-17",
+	"date": "10/12/2023"
+},
+{
+	"reading": "Matt 27:45-66; Prov 8:18-36",
+	"date": "10/13/2023"
+},
+{
+	"reading": "Matt 28; Prov 9",
+	"date": "10/14/2023"
+},
+{
+	"reading": "Mark 1:1-22; Prov 10",
+	"date": "10/15/2023"
+},
+{
+	"reading": "Mark 1:23-45; Prov 11",
+	"date": "10/16/2023"
+},
+{
+	"reading": "Mark 2; Prov 12",
+	"date": "10/17/2023"
+},
+{
+	"reading": "Mark 3:1-19; Prov 13",
+	"date": "10/18/2023"
+},
+{
+	"reading": "Mark 3:20-35; Prov 14",
+	"date": "10/19/2023"
+},
+{
+	"reading": "Mark 4:1-20; Prov 15",
+	"date": "10/20/2023"
+},
+{
+	"reading": "Mark 4:21-41; Prov 16",
+	"date": "10/21/2023"
+},
+{
+	"reading": "Mark 5:1-20; Prov 17",
+	"date": "10/22/2023"
+},
+{
+	"reading": "Mark 5:21-43; Prov 18",
+	"date": "10/23/2023"
+},
+{
+	"reading": "Mark 6:1-29; Prov 19",
+	"date": "10/24/2023"
+},
+{
+	"reading": "Mark 6:30-56; Prov 20",
+	"date": "10/25/2023"
+},
+{
+	"reading": "Mark 7:1-23; Prov 21",
+	"date": "10/26/2023"
+},
+{
+	"reading": "Mark 7:24-37; Prov 22",
+	"date": "10/27/2023"
+},
+{
+	"reading": "Mark 8:1-21; Prov 23",
+	"date": "10/28/2023"
+},
+{
+	"reading": "Mark 8:22-38; Prov 24",
+	"date": "10/29/2023"
+},
+{
+	"reading": "Mark 9:1-29; Prov 25",
+	"date": "10/30/2023"
+},
+{
+	"reading": "Mark 9:30-50; Prov 26",
+	"date": "10/31/2023"
+},
+{
+	"reading": "Mark 10:1-31; Prov 27",
+	"date": "11/1/2023"
+},
+{
+	"reading": "Mark 10:32-52; Prov 28",
+	"date": "11/2/2023"
+},
+{
+	"reading": "Mark 11; Prov 29",
+	"date": "11/3/2023"
+},
+{
+	"reading": "Mark 12:1-27; Prov 30",
+	"date": "11/4/2023"
+},
+{
+	"reading": "Mark 12:28-44; Prov 31",
+	"date": "11/5/2023"
+},
+{
+	"reading": "Mark 13:1-17; Eccl 1",
+	"date": "11/6/2023"
+},
+{
+	"reading": "Mark 13:18-37; Eccl 2",
+	"date": "11/7/2023"
+},
+{
+	"reading": "Mark 14:1-26; Eccl 3",
+	"date": "11/8/2023"
+},
+{
+	"reading": "Mark 14:27-42; Eccl 4",
+	"date": "11/9/2023"
+},
+{
+	"reading": "Mark 14:43-72; Eccl 5",
+	"date": "11/10/2023"
+},
+{
+	"reading": "Mark 15:1-15; Eccl 6",
+	"date": "11/11/2023"
+},
+{
+	"reading": "Mark 15:16-47; Eccl 7",
+	"date": "11/12/2023"
+},
+{
+	"reading": "Mark 16; Eccl 8",
+	"date": "11/13/2023"
+},
+{
+	"reading": "Luke 1:1-25; Eccl 9",
+	"date": "11/14/2023"
+},
+{
+	"reading": "Luke 1:26-56; Eccl 10",
+	"date": "11/15/2023"
+},
+{
+	"reading": "Luke 1:57-80; Eccl 11",
+	"date": "11/16/2023"
+},
+{
+	"reading": "Luke 2:1-21; Eccl 12",
+	"date": "11/17/2023"
+},
+{
+	"reading": "Luke 2:22-52; SS 1",
+	"date": "11/18/2023"
+},
+{
+	"reading": "Luke 3:1-20; SS 2",
+	"date": "11/19/2023"
+},
+{
+	"reading": "Luke 3:21-38; SS 3",
+	"date": "11/20/2023"
+},
+{
+	"reading": "Luke 4:1-30; SS 4",
+	"date": "11/21/2023"
+},
+{
+	"reading": "Luke 4:31-44; SS 5",
+	"date": "11/22/2023"
+},
+{
+	"reading": "Luke 5:1-16; SS 6",
+	"date": "11/23/2023"
+},
+{
+	"reading": "Luke 5:17-39; SS 7",
+	"date": "11/24/2023"
+},
+{
+	"reading": "Luke 6:1-16; SS 8",
+	"date": "11/25/2023"
+},
+{
+	"reading": "Luke 6:17-49; Isa 1",
+	"date": "11/26/2023"
+},
+{
+	"reading": "Luke 7:1-17; Isa 2",
+	"date": "11/27/2023"
+},
+{
+	"reading": "Luke 7:18-50; Isa 3",
+	"date": "11/28/2023"
+},
+{
+	"reading": "Luke 8:1-25; Isa 4",
+	"date": "11/29/2023"
+},
+{
+	"reading": "Luke 8:26-56; Isa 5",
+	"date": "11/30/2023"
+},
+{
+	"reading": "Luke 9:1-21; Isa 6",
+	"date": "12/1/2023"
+},
+{
+	"reading": "Luke 9:22-36; Isa 7",
+	"date": "12/2/2023"
+},
+{
+	"reading": "Luke 9:37-62; Isa 8",
+	"date": "12/3/2023"
+},
+{
+	"reading": "Luke 10:1-24; Isa 9",
+	"date": "12/4/2023"
+},
+{
+	"reading": "Luke 10:25-42; Isa 10",
+	"date": "12/5/2023"
+},
+{
+	"reading": "Luke 11:1-32; Isa 11",
+	"date": "12/6/2023"
+},
+{
+	"reading": "Luke 11:33-54; Isa 12",
+	"date": "12/7/2023"
+},
+{
+	"reading": "Luke 12:1-12; Isa 13",
+	"date": "12/8/2023"
+},
+{
+	"reading": "Luke 12:13-34; Isa 14",
+	"date": "12/9/2023"
+},
+{
+	"reading": "Luke 12:35-59; Isa 15",
+	"date": "12/10/2023"
+},
+{
+	"reading": "Luke 13:1-17; Isa 16",
+	"date": "12/11/2023"
+},
+{
+	"reading": "Luke 13:18-35; Isa 17",
+	"date": "12/12/2023"
+},
+{
+	"reading": "Luke 14:1-14; Isa 18",
+	"date": "12/13/2023"
+},
+{
+	"reading": "Luke 14:15-35; Isa 19",
+	"date": "12/14/2023"
+},
+{
+	"reading": "Luke 15; Isa 20",
+	"date": "12/15/2023"
+},
+{
+	"reading": "Luke 16; Isa 21",
+	"date": "12/16/2023"
+},
+{
+	"reading": "Luke 17:1-19; Isa 22",
+	"date": "12/17/2023"
+},
+{
+	"reading": "Luke 17:20-37; Isa 23",
+	"date": "12/18/2023"
+},
+{
+	"reading": "Luke 18:1-17; Isa 24",
+	"date": "12/19/2023"
+},
+{
+	"reading": "Luke 18:18-43; Isa 25",
+	"date": "12/20/2023"
+},
+{
+	"reading": "Luke 19:1-27; Isa 26",
+	"date": "12/21/2023"
+},
+{
+	"reading": "Luke 19:28-48; Isa 27",
+	"date": "12/22/2023"
+},
+{
+	"reading": "Luke 20:1-26; Isa 28",
+	"date": "12/23/2023"
+},
+{
+	"reading": "Luke 20:27-47; Isa 29",
+	"date": "12/24/2023"
+},
+{
+	"reading": "Luke 21:1-19; Isa 30",
+	"date": "12/25/2023"
+},
+{
+	"reading": "Luke 21:20-38; Isa 31",
+	"date": "12/26/2023"
+},
+{
+	"reading": "Luke 22:1-23; Isa 32",
+	"date": "12/27/2023"
+},
+{
+	"reading": "Luke 22:24-46; Isa 33",
+	"date": "12/28/2023"
+},
+{
+	"reading": "Luke 22:47-71; Isa 34",
+	"date": "12/29/2023"
+},
+{
+	"reading": "Luke 23:1-25; Isa 35",
+	"date": "12/30/2023"
+},
+{
+	"reading": "Luke 23:26-56; Isa 36",
+	"date": "12/31/2023"
+},
+{
+	"reading": "Luke 24:1-35; Isa 37:1-20",
+	"date": "1/1/2024"
+},
+{
+	"reading": "Luke 24:36-53; Isa 37:21-37",
+	"date": "1/2/2024"
+},
+{
+	"reading": "John 1:1-28; Isa 38",
+	"date": "1/3/2024"
+},
+{
+	"reading": "John 1:29-51; Isa 39",
+	"date": "1/4/2024"
+},
+{
+	"reading": "John 2; Isa 40",
+	"date": "1/5/2024"
+},
+{
+	"reading": "John 3:1-21; Isa 41",
+	"date": "1/6/2024"
+},
+{
+	"reading": "John 3:22-36; Isa 42",
+	"date": "1/7/2024"
+},
+{
+	"reading": "John 4:1-26; Isa 43",
+	"date": "1/8/2024"
+},
+{
+	"reading": "John 4:27-54; Isa 44",
+	"date": "1/9/2024"
+},
+{
+	"reading": "John 5:1-30; Isa 45",
+	"date": "1/10/2024"
+},
+{
+	"reading": "John 5:31-47; Isa 46",
+	"date": "1/11/2024"
+},
+{
+	"reading": "John 6:1-31; Isa 47",
+	"date": "1/12/2024"
+},
+{
+	"reading": "John 6:32-51; Isa 48",
+	"date": "1/13/2024"
+},
+{
+	"reading": "John 6:52-71; Isa 49",
+	"date": "1/14/2024"
+},
+{
+	"reading": "John 7:1-24; Isa 50",
+	"date": "1/15/2024"
+},
+{
+	"reading": "John 7:25-53; Isa 51",
+	"date": "1/16/2024"
+},
+{
+	"reading": "John 8:1-20; Isa 52",
+	"date": "1/17/2024"
+},
+{
+	"reading": "John 8:21-36; Isa 53",
+	"date": "1/18/2024"
+},
+{
+	"reading": "John 8:37-59; Isa 54",
+	"date": "1/19/2024"
+},
+{
+	"reading": "John 9:1-13; Isa 55",
+	"date": "1/20/2024"
+},
+{
+	"reading": "John 9:14-41; Isa 56",
+	"date": "1/21/2024"
+},
+{
+	"reading": "John 10:1-21; Isa 57",
+	"date": "1/22/2024"
+},
+{
+	"reading": "John 10:22-42; Isa 58",
+	"date": "1/23/2024"
+},
+{
+	"reading": "John 11:1-40; Isa 59",
+	"date": "1/24/2024"
+},
+{
+	"reading": "John 11:41-57; Isa 60",
+	"date": "1/25/2024"
+},
+{
+	"reading": "John 12:1-11; Isa 61",
+	"date": "1/26/2024"
+},
+{
+	"reading": "John 12:12-50; Isa 62",
+	"date": "1/27/2024"
+},
+{
+	"reading": "John 13:1-17; Isa 63",
+	"date": "1/28/2024"
+},
+{
+	"reading": "John 13:18-38; Isa 64",
+	"date": "1/29/2024"
+},
+{
+	"reading": "John 14; Isa 65",
+	"date": "1/30/2024"
+},
+{
+	"reading": "John 15; Isa 66",
+	"date": "1/31/2024"
+},
+{
+	"reading": "John 16:1-15; Jer 1",
+	"date": "2/1/2024"
+},
+{
+	"reading": "John 16:16-33; Jer 2:1-19",
+	"date": "2/2/2024"
+},
+{
+	"reading": "John 17; Jer 2:20-37",
+	"date": "2/3/2024"
+},
+{
+	"reading": "John 18:1-27; Jer 3",
+	"date": "2/4/2024"
+},
+{
+	"reading": "John 18:28-40; Jer 4",
+	"date": "2/5/2024"
+},
+{
+	"reading": "John 19:1-30; Jer 5",
+	"date": "2/6/2024"
+},
+{
+	"reading": "John 19:31-42; Jer 6",
+	"date": "2/7/2024"
+},
+{
+	"reading": "John 20; Jer 7",
+	"date": "2/8/2024"
+},
+{
+	"reading": "John 21; Jer 8",
+	"date": "2/9/2024"
+},
+{
+	"reading": "Acts 1; Jer 9",
+	"date": "2/10/2024"
+},
+{
+	"reading": "Acts 2:1-21; Jer 10",
+	"date": "2/11/2024"
+},
+{
+	"reading": "Acts 2:22-47; Jer 11",
+	"date": "2/12/2024"
+},
+{
+	"reading": "Acts 3; Jer 12",
+	"date": "2/13/2024"
+},
+{
+	"reading": "Acts 4:1-18; Jer 13",
+	"date": "2/14/2024"
+},
+{
+	"reading": "Acts 4:19-37; Jer 14",
+	"date": "2/15/2024"
+},
+{
+	"reading": "Acts 5:1-16; Jer 15",
+	"date": "2/16/2024"
+},
+{
+	"reading": "Acts 5:17-42; Jer 16",
+	"date": "2/17/2024"
+},
+{
+	"reading": "Acts 6; Jer 17",
+	"date": "2/18/2024"
+},
+{
+	"reading": "Acts 7:1-16; Jer 18",
+	"date": "2/19/2024"
+},
+{
+	"reading": "Acts 7:17-47; Jer 19",
+	"date": "2/20/2024"
+},
+{
+	"reading": "Acts 7:48-60; Jer 20",
+	"date": "2/21/2024"
+},
+{
+	"reading": "Acts 8:1-25; Jer 21",
+	"date": "2/22/2024"
+},
+{
+	"reading": "Acts 8:26-40; Jer 22",
+	"date": "2/23/2024"
+},
+{
+	"reading": "Acts 9:1-19; Jer 23:1-20",
+	"date": "2/24/2024"
+},
+{
+	"reading": "Acts 9:20-43; Jer 23:21-40",
+	"date": "2/25/2024"
+},
+{
+	"reading": "Acts 10:1-33; Jer 24",
+	"date": "2/26/2024"
+},
+{
+	"reading": "Acts 10:34-48; Jer 25:1-18",
+	"date": "2/27/2024"
+},
+{
+	"reading": "Acts 11; Jer 25:19-38",
+	"date": "2/28/2024"
+},
+{
+	"reading": "Acts 12; Jer 26",
+	"date": "2/29/2024"
+},
+{
+	"reading": "Acts 13:1-34; Jer 27",
+	"date": "3/1/2024"
+},
+{
+	"reading": "Acts 13:35-52; Jer 28",
+	"date": "3/2/2024"
+},
+{
+	"reading": "Acts 14; Jer 29",
+	"date": "3/3/2024"
+},
+{
+	"reading": "Acts 15:1-21; Jer 30",
+	"date": "3/4/2024"
+},
+{
+	"reading": "Acts 15:22-41; Jer 31:1-20",
+	"date": "3/5/2024"
+},
+{
+	"reading": "Acts 16:1-18; Jer 31:21-40",
+	"date": "3/6/2024"
+},
+{
+	"reading": "Acts 16:19-40; Jer 32:1-25",
+	"date": "3/7/2024"
+},
+{
+	"reading": "Acts 17:1-18; Jer 32:26-44",
+	"date": "3/8/2024"
+},
+{
+	"reading": "Acts 17:19-34; Jer 33",
+	"date": "3/9/2024"
+},
+{
+	"reading": "Acts 18; Jer 34",
+	"date": "3/10/2024"
+},
+{
+	"reading": "Acts 19:1-20; Jer 35",
+	"date": "3/11/2024"
+},
+{
+	"reading": "Acts 19:21-41; Jer 36",
+	"date": "3/12/2024"
+},
+{
+	"reading": "Acts 20:1-12; Jer 37",
+	"date": "3/13/2024"
+},
+{
+	"reading": "Acts 20:13-38; Jer 38",
+	"date": "3/14/2024"
+},
+{
+	"reading": "Acts 21:1-17; Jer 39",
+	"date": "3/15/2024"
+},
+{
+	"reading": "Acts 21:18-40; Jer 40",
+	"date": "3/16/2024"
+},
+{
+	"reading": "Acts 22; Jer 41",
+	"date": "3/17/2024"
+},
+{
+	"reading": "Acts 23:1-15; Jer 42",
+	"date": "3/18/2024"
+},
+{
+	"reading": "Acts 23:16-35; Jer 43",
+	"date": "3/19/2024"
+},
+{
+	"reading": "Acts 24; Jer 44",
+	"date": "3/20/2024"
+},
+{
+	"reading": "Acts 25; Jer 45",
+	"date": "3/21/2024"
+},
+{
+	"reading": "Acts 26; Jer 46",
+	"date": "3/22/2024"
+},
+{
+	"reading": "Acts 27:1-26; Jer 47",
+	"date": "3/23/2024"
+},
+{
+	"reading": "Acts 27:27-44; Jer 48:1-24",
+	"date": "3/24/2024"
+},
+{
+	"reading": "Acts 28; Jer 48:25-47",
+	"date": "3/25/2024"
+},
+{
+	"reading": "Rom 1; Jer 49:1-22",
+	"date": "3/26/2024"
+},
+{
+	"reading": "Rom 2; Jer 49:23-39",
+	"date": "3/27/2024"
+},
+{
+	"reading": "Rom 3; Jer 50:1-23",
+	"date": "3/28/2024"
+},
+{
+	"reading": "Rom 4; Jer 50:24-46",
+	"date": "3/29/2024"
+},
+{
+	"reading": "Rom 5; Jer 51:1-23",
+	"date": "3/30/2024"
+},
+{
+	"reading": "Rom 6; Jer 51:24-44",
+	"date": "3/31/2024"
+},
+{
+	"reading": "Rom 7; Jer 51:45-64",
+	"date": "4/1/2024"
+},
+{
+	"reading": "Rom 8:1-13; Jer 52",
+	"date": "4/2/2024"
+},
+{
+	"reading": "Rom 8:14-39; Lam 1",
+	"date": "4/3/2024"
+},
+{
+	"reading": "Rom 9; Lam 2",
+	"date": "4/4/2024"
+},
+{
+	"reading": "Rom 10; Lam 3:1-20",
+	"date": "4/5/2024"
+},
+{
+	"reading": "Rom 11:1-22; Lam 3:21-39",
+	"date": "4/6/2024"
+},
+{
+	"reading": "Rom 11:23-36; Lam 3:40-66",
+	"date": "4/7/2024"
+},
+{
+	"reading": "Rom 12; Lam 4",
+	"date": "4/8/2024"
+},
+{
+	"reading": "Rom 13; Lam 5",
+	"date": "4/9/2024"
+},
+{
+	"reading": "Rom 14; Ezek 1",
+	"date": "4/10/2024"
+},
+{
+	"reading": "Rom 15; Ezek 2",
+	"date": "4/11/2024"
+},
+{
+	"reading": "Rom 16; Ezek 3",
+	"date": "4/12/2024"
+},
+{
+	"reading": "1 Cor 1; Ezek 4",
+	"date": "4/13/2024"
+},
+{
+	"reading": "1 Cor 2; Ezek 5",
+	"date": "4/14/2024"
+},
+{
+	"reading": "1 Cor 3; Ezek 6",
+	"date": "4/15/2024"
+},
+{
+	"reading": "1 Cor 4; Ezek 7",
+	"date": "4/16/2024"
+},
+{
+	"reading": "1 Cor 5; Ezek 8",
+	"date": "4/17/2024"
+},
+{
+	"reading": "1 Cor 6; Ezek 9",
+	"date": "4/18/2024"
+},
+{
+	"reading": "1 Cor 7:1-24; Ezek 10",
+	"date": "4/19/2024"
+},
+{
+	"reading": "1 Cor 7:25-40; Ezek 11",
+	"date": "4/20/2024"
+},
+{
+	"reading": "1 Cor 8; Ezek 12",
+	"date": "4/21/2024"
+},
+{
+	"reading": "1 Cor 9; Ezek 13",
+	"date": "4/22/2024"
+},
+{
+	"reading": "1 Cor 10; Ezek 14",
+	"date": "4/23/2024"
+},
+{
+	"reading": "1 Cor 11:1-16; Ezek 15",
+	"date": "4/24/2024"
+},
+{
+	"reading": "1 Cor 11:17-34; Ezek 16:1-19",
+	"date": "4/25/2024"
+},
+{
+	"reading": "1 Cor 12; Ezek 16:20-42",
+	"date": "4/26/2024"
+},
+{
+	"reading": "1 Cor 13; Ezek 16:43-63",
+	"date": "4/27/2024"
+},
+{
+	"reading": "1 Cor 14:1-19; Ezek 17",
+	"date": "4/28/2024"
+},
+{
+	"reading": "1 Cor 14:20-40; Ezek 18",
+	"date": "4/29/2024"
+},
+{
+	"reading": "1 Cor 15:1-19; Ezek 19",
+	"date": "4/30/2024"
+},
+{
+	"reading": "1 Cor 15:20-34; Ezek 20:1-24",
+	"date": "5/1/2024"
+},
+{
+	"reading": "1 Cor 15:35-58; Ezek 20:25-49",
+	"date": "5/2/2024"
+},
+{
+	"reading": "1 Cor 16; Ezek 21",
+	"date": "5/3/2024"
+},
+{
+	"reading": "2 Cor 1; Ezek 22",
+	"date": "5/4/2024"
+},
+{
+	"reading": "2 Cor 2; Ezek 23:1-24",
+	"date": "5/5/2024"
+},
+{
+	"reading": "2 Cor 3; Ezek 23:25-49",
+	"date": "5/6/2024"
+},
+{
+	"reading": "2 Cor 4; Ezek 24",
+	"date": "5/7/2024"
+},
+{
+	"reading": "2 Cor 5; Ezek 25",
+	"date": "5/8/2024"
+},
+{
+	"reading": "2 Cor 6; Ezek 26",
+	"date": "5/9/2024"
+},
+{
+	"reading": "2 Cor 7; Ezek 27:1-18",
+	"date": "5/10/2024"
+},
+{
+	"reading": "2 Cor 8; Ezek 27:19-36",
+	"date": "5/11/2024"
+},
+{
+	"reading": "2 Cor 9; Ezek 28",
+	"date": "5/12/2024"
+},
+{
+	"reading": "2 Cor 10; Ezek 29",
+	"date": "5/13/2024"
+},
+{
+	"reading": "2 Cor 11; Ezek 30",
+	"date": "5/14/2024"
+},
+{
+	"reading": "2 Cor 12; Ezek 31",
+	"date": "5/15/2024"
+},
+{
+	"reading": "2 Cor 13; Ezek 32",
+	"date": "5/16/2024"
+},
+{
+	"reading": "Gal 1; Ezek 33",
+	"date": "5/17/2024"
+},
+{
+	"reading": "Gal 2; Ezek 34",
+	"date": "5/18/2024"
+},
+{
+	"reading": "Gal 3; Ezek 35",
+	"date": "5/19/2024"
+},
+{
+	"reading": "Gal 4; Ezek 36:1-21",
+	"date": "5/20/2024"
+},
+{
+	"reading": "Gal 5; Ezek 36:22-38",
+	"date": "5/21/2024"
+},
+{
+	"reading": "Gal 6; Ezek 37",
+	"date": "5/22/2024"
+},
+{
+	"reading": "Eph 1; Ezek 38",
+	"date": "5/23/2024"
+},
+{
+	"reading": "Eph 2; Ezek 39",
+	"date": "5/24/2024"
+},
+{
+	"reading": "Eph 3; Ezek 40:1-27",
+	"date": "5/25/2024"
+},
+{
+	"reading": "Eph 4; Ezek 40:28-49",
+	"date": "5/26/2024"
+},
+{
+	"reading": "Eph 5; Ezek 41",
+	"date": "5/27/2024"
+},
+{
+	"reading": "Eph 6; Ezek 42",
+	"date": "5/28/2024"
+},
+{
+	"reading": "Phil 1; Ezek 43",
+	"date": "5/29/2024"
+},
+{
+	"reading": "Phil 2; Ezek 44",
+	"date": "5/30/2024"
+},
+{
+	"reading": "Phil 3; Ezek 45",
+	"date": "5/31/2024"
+},
+{
+	"reading": "Phil 4; Ezek 46",
+	"date": "6/1/2024"
+},
+{
+	"reading": "Col 1; Ezek 47",
+	"date": "6/2/2024"
+},
+{
+	"reading": "Col 2; Ezek 48",
+	"date": "6/3/2024"
+},
+{
+	"reading": "Col 3; Dan 1",
+	"date": "6/4/2024"
+},
+{
+	"reading": "Col 4; Dan 2:1-24",
+	"date": "6/5/2024"
+},
+{
+	"reading": "1 Thes 1; Dan 2:25-49",
+	"date": "6/6/2024"
+},
+{
+	"reading": "1 Thes 2; Dan 3",
+	"date": "6/7/2024"
+},
+{
+	"reading": "1 Thes 3; Dan 4:1-18",
+	"date": "6/8/2024"
+},
+{
+	"reading": "1 Thes 4; Dan 4:19-37",
+	"date": "6/9/2024"
+},
+{
+	"reading": "1 Thes 5; Dan 5",
+	"date": "6/10/2024"
+},
+{
+	"reading": "2 Thes 1; Dan 6",
+	"date": "6/11/2024"
+},
+{
+	"reading": "2 Thes 2; Dan 7",
+	"date": "6/12/2024"
+},
+{
+	"reading": "2 Thes 3; Dan 8",
+	"date": "6/13/2024"
+},
+{
+	"reading": "1 Tim 1; Dan 9",
+	"date": "6/14/2024"
+},
+{
+	"reading": "1 Tim 2; Dan 10",
+	"date": "6/15/2024"
+},
+{
+	"reading": "1 Tim 3; Dan 11:1-22",
+	"date": "6/16/2024"
+},
+{
+	"reading": "1 Tim 4; Dan 11:23-45",
+	"date": "6/17/2024"
+},
+{
+	"reading": "1 Tim 5; Dan 12",
+	"date": "6/18/2024"
+},
+{
+	"reading": "1 Tim 6; Hosea 1",
+	"date": "6/19/2024"
+},
+{
+	"reading": "2 Tim 1; Hosea 2",
+	"date": "6/20/2024"
+},
+{
+	"reading": "2 Tim 2; Hosea 3",
+	"date": "6/21/2024"
+},
+{
+	"reading": "2 Tim 3; Hosea 4",
+	"date": "6/22/2024"
+},
+{
+	"reading": "2 Tim 4; Hosea 5",
+	"date": "6/23/2024"
+},
+{
+	"reading": "Titus 1; Hosea 6",
+	"date": "6/24/2024"
+},
+{
+	"reading": "Titus 2; Hosea 7",
+	"date": "6/25/2024"
+},
+{
+	"reading": "Titus 3; Hosea 8",
+	"date": "6/26/2024"
+},
+{
+	"reading": "Philem; Hosea 9",
+	"date": "6/27/2024"
+},
+{
+	"reading": "Heb 1; Hosea 10",
+	"date": "6/28/2024"
+},
+{
+	"reading": "Heb 2; Hosea 11",
+	"date": "6/29/2024"
+},
+{
+	"reading": "Heb 3; Hosea 12",
+	"date": "6/30/2024"
+},
+{
+	"reading": "Heb 4; Hosea 13",
+	"date": "7/1/2024"
+},
+{
+	"reading": "Heb 5; Hosea 14",
+	"date": "7/2/2024"
+},
+{
+	"reading": "Heb 6; Joel 1",
+	"date": "7/3/2024"
+},
+{
+	"reading": "Heb 7; Joel 2",
+	"date": "7/4/2024"
+},
+{
+	"reading": "Heb 8; Joel 3",
+	"date": "7/5/2024"
+},
+{
+	"reading": "Heb 9; Amos 1",
+	"date": "7/6/2024"
+},
+{
+	"reading": "Heb 10:1-18; Amos 2",
+	"date": "7/7/2024"
+},
+{
+	"reading": "Heb 10:19-39; Amos 3",
+	"date": "7/8/2024"
+},
+{
+	"reading": "Heb 11:1-22; Amos 4",
+	"date": "7/9/2024"
+},
+{
+	"reading": "Heb 11:23-40; Amos 5",
+	"date": "7/10/2024"
+},
+{
+	"reading": "Heb 12; Amos 6",
+	"date": "7/11/2024"
+},
+{
+	"reading": "Heb 13; Amos 7",
+	"date": "7/12/2024"
+},
+{
+	"reading": "James 1; Amos 8",
+	"date": "7/13/2024"
+},
+{
+	"reading": "James 2; Amos 9",
+	"date": "7/14/2024"
+},
+{
+	"reading": "James 3; Obad",
+	"date": "7/15/2024"
+},
+{
+	"reading": "James 4; Jonah 1",
+	"date": "7/16/2024"
+},
+{
+	"reading": "James 5; Jonah 2",
+	"date": "7/17/2024"
+},
+{
+	"reading": "1 Pet 1; Jonah 3",
+	"date": "7/18/2024"
+},
+{
+	"reading": "1 Pet 2; Jonah 4",
+	"date": "7/19/2024"
+},
+{
+	"reading": "1 Pet 3; Micah 1",
+	"date": "7/20/2024"
+},
+{
+	"reading": "1 Pet 4; Micah 2",
+	"date": "7/21/2024"
+},
+{
+	"reading": "1 Pet 5; Micah 3",
+	"date": "7/22/2024"
+},
+{
+	"reading": "2 Pet 1; Micah 4",
+	"date": "7/23/2024"
+},
+{
+	"reading": "2 Pet 2; Micah 5",
+	"date": "7/24/2024"
+},
+{
+	"reading": "2 Pet 3; Micah 6",
+	"date": "7/25/2024"
+},
+{
+	"reading": "1 John 1; Micah 7",
+	"date": "7/26/2024"
+},
+{
+	"reading": "1 John 2; Nahum 1",
+	"date": "7/27/2024"
+},
+{
+	"reading": "1 John 3; Nahum 2",
+	"date": "7/28/2024"
+},
+{
+	"reading": "1 John 4; Nahum 3",
+	"date": "7/29/2024"
+},
+{
+	"reading": "1 John 5; Hab 1",
+	"date": "7/30/2024"
+},
+{
+	"reading": "2 John; Hab 2",
+	"date": "7/31/2024"
+},
+{
+	"reading": "3 John; Hab 3",
+	"date": "8/1/2024"
+},
+{
+	"reading": "Jude; Zeph 1",
+	"date": "8/2/2024"
+},
+{
+	"reading": "Rev 1; Zeph 2",
+	"date": "8/3/2024"
+},
+{
+	"reading": "Rev 2; Zeph 3",
+	"date": "8/4/2024"
+},
+{
+	"reading": "Rev 3; Hag 1",
+	"date": "8/5/2024"
+},
+{
+	"reading": "Rev 4; Hag 2",
+	"date": "8/6/2024"
+},
+{
+	"reading": "Rev 5; Zech 1",
+	"date": "8/7/2024"
+},
+{
+	"reading": "Rev 6; Zech 2",
+	"date": "8/8/2024"
+},
+{
+	"reading": "Rev 7; Zech 3",
+	"date": "8/9/2024"
+},
+{
+	"reading": "Rev 8; Zech 4",
+	"date": "8/10/2024"
+},
+{
+	"reading": "Rev 9; Zech 5",
+	"date": "8/11/2024"
+},
+{
+	"reading": "Rev 10; Zech 6",
+	"date": "8/12/2024"
+},
+{
+	"reading": "Rev 11; Zech 7",
+	"date": "8/13/2024"
+},
+{
+	"reading": "Rev 12; Zech 8",
+	"date": "8/14/2024"
+},
+{
+	"reading": "Rev 13; Zech 9",
+	"date": "8/15/2024"
+},
+{
+	"reading": "Rev 14; Zech 10",
+	"date": "8/16/2024"
+},
+{
+	"reading": "Rev 15; Zech 11",
+	"date": "8/17/2024"
+},
+{
+	"reading": "Rev 16; Zech 12",
+	"date": "8/18/2024"
+},
+{
+	"reading": "Rev 17; Zech 13",
+	"date": "8/19/2024"
+},
+{
+	"reading": "Rev 18; Zech 14",
+	"date": "8/20/2024"
+},
+{
+	"reading": "Rev 19; Mal 1",
+	"date": "8/21/2024"
+},
+{
+	"reading": "Rev 20; Mal 2",
+	"date": "8/22/2024"
+},
+{
+	"reading": "Rev 21; Mal 3",
+	"date": "8/23/2024"
+},
+{
+	"reading": "Rev 22; Mal 4",
+	"date": "8/24/2024"
+}]

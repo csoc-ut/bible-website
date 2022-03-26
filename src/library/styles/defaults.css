@@ -1,0 +1,169 @@
+/* Basics */
+:root {
+	--nav-height: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    color: #333;
+    text-transform: none;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+	background-color: #fff;
+	margin: 0px;
+}
+
+/* Navbar */
+.default-nav__wrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    background-color: rgb(48, 65, 72, 1.0);
+	height: var(--nav-height);
+	min-height: var(--nav-height);
+	max-height: var(--nav-height);
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.default-nav__button__back {
+    display: flex;
+    flex: 0 0 50%;
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px !important;
+    background-color: rgb(48, 65, 72, 1.0);
+    color: #fff;
+    cursor: pointer;
+}
+.default-nav__button__back__img {
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.default-nav__button__back__img:hover {
+    background-color: rgb(79, 91, 98, 1.0);
+}
+.default-nav__button__back__img:active {
+    background-color: rgb(79, 91, 98, 1.0);
+    opacity: 0.9;
+}
+.default-nav__button__title {
+    display: flex;
+    flex: 0 0 50%;
+    width: calc(100% - 50px);
+    min-width: calc(100% - 50px);
+    max-width: calc(100% - 50px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px !important;
+    background-color: rgb(48, 65, 72, 1.0);
+    color: #fff;
+    cursor: pointer;
+}
+.default-nav__button__title__text {
+    margin-left: -50px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.default-nav__button__title__text:hover {
+    background-color: rgb(79, 91, 98, 1.0);
+}
+.default-nav__button__title__text:active {
+    background-color: rgb(79, 91, 98, 1.0);
+}
+
+/* Page */
+.default-page__wrapper {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: black;
+	top: var(--nav-height);
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: calc(100% - var(--nav-height));
+	min-height: calc(100% - var(--nav-height));
+	max-height: calc(100% - var(--nav-height));
+	padding: 0px;
+	overflow: hidden;
+}
+.default-page__container {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 1;
+	overflow: auto;
+}
+
+/* Bible text */
+.default__bible-text {
+    margin: 20px;
+}
+.default__bible-text__title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: 0 0 20px 0;
+}
+.default__verse {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin: 25px 0px 25px 0px;
+}
+.default__verse__number{
+    font-size: 75%;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+    vertical-align: baseline;
+    margin: 0px;
+}
+
+/* Copy right */
+.default__copyright
+{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px 50px 20px;
+    font-size: 10px;
+    font-style: italic;
+}
