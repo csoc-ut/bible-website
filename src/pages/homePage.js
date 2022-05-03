@@ -176,7 +176,7 @@ export default class HomePage
 			
 			row.chapterExpand = createElement('div', 'home-page__grid-row__expand', this.container); // Chapter card
 			row.chapterExpand.setAttribute('hidden', true);
-			row.onclick = () => this.expandBibleRow(row, this.bible[i])
+			row.onclick = () => this.expandBibleRow(row, this.bible[i]);
 		}
 		
 		// New testament
@@ -188,8 +188,11 @@ export default class HomePage
 			// Text
 			let bibleBook = createElement('div', 'home-page__grid-card__bible-book', row);
 			createElement('div', 'home-page__grid-card__bible-book__text', bibleBook, `${this.bible[i].title}`, { id: `book-${i}` });
-			createElement('img', 'home-page__grid-card__bible-book__img', bibleBook, null, { src: ArrowForward })
-			row.onclick = () => new BiblePage(this.parent, this.bible[i]);
+			row.arrow = createElement('img', 'home-page__grid-card__bible-book__img', bibleBook, null, { src: ArrowForward })
+			
+			row.chapterExpand = createElement('div', 'home-page__grid-row__expand', this.container); // Chapter card
+			row.chapterExpand.setAttribute('hidden', true);
+			row.onclick = () => this.expandBibleRow(row, this.bible[i]);
 		}
 	}
 	
